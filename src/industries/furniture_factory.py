@@ -11,7 +11,7 @@ industry = IndustrySecondary(id='furniture_factory',
                              nearby_station_name='string(STR_STATION_JOINERS_SHOP)',
                              fund_cost_multiplier='95')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
 
 industry.add_tile(id='furniture_factory_tile_1',

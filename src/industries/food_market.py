@@ -15,7 +15,7 @@ industry = IndustryTertiary(id='food_market',
                             nearby_station_name='string(STR_STATION_TOWN_3)',
                             fund_cost_multiplier='15')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 
 industry.add_tile(id='food_market_tile_1',

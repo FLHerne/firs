@@ -24,12 +24,13 @@ STR_PARAM_DESC_PRIMARY_LEVEL_BONUS                                              
 STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE                                       :Temperate Basic
 STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          :Arctic Basic
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Tropic Basic
-STR_PARAM_VALUE_ECONOMIES_FIRS                                                  :Extreme
+STR_PARAM_VALUE_ECONOMIES_EXTREME                                               :Extreme
 STR_PARAM_VALUE_ECONOMIES_MISTAH_KURTZ                                          :In A Hot Country
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Steeltown
 
 STR_CARGO_NAME_ACID                                                             :Acid
 STR_CARGO_NAME_ALCOHOL                                                          :Alcohol
+STR_CARGO_NAME_AMMONIA                                                          :Ammonia
 STR_CARGO_NAME_BAUXITE                                                          :Bauxite
 STR_CARGO_NAME_BEANS                                                            :Beans
 STR_CARGO_NAME_BUILDING_MATERIALS                                               :Building Materials
@@ -44,6 +45,7 @@ STR_CARGO_NAME_COPPER                                                           
 STR_CARGO_NAME_EDIBLE_OIL                                                       :Edible Oil
 STR_CARGO_NAME_ELECTRICAL_MACHINES                                              :Electrical Machines
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :Engineering Supplies
+STR_CARGO_NAME_ETHYLENE                                                         :Ethylene
 STR_CARGO_NAME_EXPLOSIVES                                                       :Explosives
 STR_CARGO_NAME_FIBRES                                                           :Plant Fibres
 STR_CARGO_NAME_FISH                                                             :Fish
@@ -85,6 +87,7 @@ STR_CARGO_NAME_ZINC                                                             
 
 STR_CARGO_UNIT_ACID                                                             :{VOLUME} of acid
 STR_CARGO_UNIT_ALCOHOL                                                          :{VOLUME} of alcohol
+STR_CARGO_UNIT_AMMONIA                                                          :{VOLUME} of ammonia
 STR_CARGO_UNIT_BAUXITE                                                          :{WEIGHT} of bauxite
 STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} of beans
 STR_CARGO_UNIT_BUILDING_MATERIALS                                               :{WEIGHT} of building materials
@@ -99,6 +102,7 @@ STR_CARGO_UNIT_COPPER                                                           
 STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} of edible oil
 STR_CARGO_UNIT_ELECTRICAL_MACHINES                                              :{WEIGHT} of electrical machines
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} crate{P 0 "" s} of engineering supplies
+STR_CARGO_UNIT_ETHYLENE                                                         :{VOLUME} of ethylene
 STR_CARGO_UNIT_EXPLOSIVES                                                       :{SIGNED_WORD} crate{P 0 "" s} of explosives
 STR_CARGO_UNIT_FERTILISER                                                       :{WEIGHT} of fertiliser
 STR_CARGO_UNIT_FIBRES                                                           :{SIGNED_WORD} bale{P 0 "" s} of plant fibres
@@ -142,6 +146,7 @@ STR_CARGO_UNIT_ZINC                                                             
 
 STR_CID_ACID                                                                    :{TINYFONT}AC
 STR_CID_ALCOHOL                                                                 :{TINYFONT}AL
+STR_CID_AMMONIA                                                                 :{TINYFONT}AM
 STR_CID_BAUXITE                                                                 :{TINYFONT}BX
 STR_CID_BEANS                                                                   :{TINYFONT}BN
 STR_CID_BUILDING_MATERIALS                                                      :{TINYFONT}BM
@@ -156,6 +161,7 @@ STR_CID_COPPER                                                                  
 STR_CID_EDIBLE_OIL                                                              :{TINYFONT}EO
 STR_CID_ELECTRICAL_MACHINES                                                     :{TINYFONT}EM
 STR_CID_ENGINEERING_SUPPLIES                                                    :{TINYFONT}ES
+STR_CID_ETHYLENE                                                                :{TINYFONT}ET
 STR_CID_EXPLOSIVES                                                              :{TINYFONT}EX
 STR_CID_FARM_SUPPLIES                                                           :{TINYFONT}FS
 STR_CID_FERTILISER                                                              :{TINYFONT}FL
@@ -235,9 +241,9 @@ STR_IND_DAIRY_FARM                                                              
 STR_IND_DREDGING_SITE                                                           :Dredging Site
 STR_IND_ELECTRIC_ARC_FURNACE                                                    :Electric Arc Furnace
 STR_IND_FACTORY                                                                 :Factory
+STR_IND_FERTILISER_FACTORY                                                      :Fertiliser Factory
 STR_IND_FISHING_GROUND                                                          :Fishing Grounds
 STR_IND_FISHING_HARBOUR                                                         :Fishing Harbour
-STR_IND_FISHING_VILLAGE                                                         :Fishing Village
 STR_IND_FLOUR_MILL                                                              :Flour Mill
 STR_IND_FOOD_MARKET                                                             :Grocer's Shop
 STR_IND_FOOD_PROCESSOR                                                          :Food Processing Plant
@@ -279,6 +285,7 @@ STR_IND_SHEEPFARM                                                               
 STR_IND_SLAG_GRINDING_PLANT                                                     :Slag Grinding Plant
 STR_IND_SMITHY_FORGE                                                            :Smithy Forge
 STR_IND_SODA_ASH_MINE                                                           :Soda Ash Mine
+STR_IND_SOLVAY_PLANT                                                            :Solvay Plant
 STR_IND_STEEL_FINISHING_PLANT                                                   :Steel Finishing Plant
 STR_IND_STOCKYARD                                                               :Stockyard
 STR_IND_SUGAR_REFINERY                                                          :Sugar Refinery

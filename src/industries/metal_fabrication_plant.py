@@ -13,7 +13,7 @@ industry = IndustrySecondary(id='metal_fabrication_plant',
                              fund_cost_multiplier='120',
                              intro_year=1832)
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].name = 'string(STR_IND_STEEL_FINISHING_PLANT)'

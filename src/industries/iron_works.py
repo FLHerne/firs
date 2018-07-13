@@ -13,7 +13,7 @@ industry = IndustrySecondary(id='iron_works',
                              fund_cost_multiplier='69',
                              expiry_year=1901)
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 # not animated tiles
 industry.add_tile(id='iron_works_tile_1',

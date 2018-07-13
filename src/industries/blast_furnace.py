@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(id='blast_furnace',
                              processed_cargos_and_output_ratios=[('IORE', 3), ('COAL', 2), ('SCMT', 3)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['METL'],
+                             prod_cargo_types=['STEL'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -15,10 +15,9 @@ industry = IndustrySecondary(id='blast_furnace',
                              intro_year=1850)
 
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].intro_year = 1800
-industry.economy_variations['BASIC_TEMPERATE'].prod_cargo_types = ['STEL']
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].name = 'string(STR_IND_BLAST_FURNACE)'
 industry.economy_variations['STEELTOWN'].processed_cargos_and_output_ratios = [('IORE', 3), ('COKE', 3), ('LIME', 2)]

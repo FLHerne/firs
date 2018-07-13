@@ -11,7 +11,7 @@ industry = IndustrySecondary(id='sawmill',
                              nearby_station_name='string(STR_STATION_MILL)',
                              fund_cost_multiplier='97')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
 

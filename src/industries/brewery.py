@@ -13,7 +13,7 @@ industry = IndustrySecondary(id='brewery',
                              nearby_station_name='string(STR_STATION_BARREL_AND_KEG)',
                              fund_cost_multiplier='50')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].name = 'string(STR_IND_CIDER_MILL)'
 industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('FRUT', 6)]

@@ -13,8 +13,8 @@ industry = IndustrySecondary(id='metal_workshop',
                              fund_cost_multiplier='120',
                              intro_year=1800)
 
-industry.economy_variations['FIRS'].enabled = True
-industry.economy_variations['FIRS'].intro_year = 1762
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].intro_year = 1762
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('STEL', 6), ('RFPR', 2)]

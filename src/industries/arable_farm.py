@@ -15,7 +15,7 @@ industry = IndustryPrimaryOrganic(id='arable_farm',
                                   fund_cost_multiplier='55',
                                   graphics_change_dates=[1928])
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].prod_cargo_types = ['GRAI', 'BEAN']
 industry.economy_variations['MISTAH_KURTZ'].enabled = True

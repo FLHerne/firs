@@ -15,7 +15,7 @@ industry = IndustryTertiary(id='hardware_store',
                             nearby_station_name='string(STR_STATION_TOWN_1)',
                             fund_cost_multiplier='15')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prob_random = '14'
 

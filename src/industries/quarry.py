@@ -13,7 +13,7 @@ industry = IndustryPrimaryExtractive(id='quarry',
                                      nearby_station_name='string(STR_IND_QUARRY)',
                                      fund_cost_multiplier='210')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].prod_cargo_types = ['SAND', 'LIME']

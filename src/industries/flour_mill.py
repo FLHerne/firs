@@ -12,7 +12,7 @@ industry = IndustrySecondary(id='flour_mill',
                              nearby_station_name='string(STR_STATION_MILL)',
                              fund_cost_multiplier='50')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].processed_cargos_and_output_ratios = [('GRAI', 6)]
 industry.economy_variations['MISTAH_KURTZ'].enabled = True

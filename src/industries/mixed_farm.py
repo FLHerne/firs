@@ -14,7 +14,7 @@ industry = IndustryPrimaryOrganic(id='mixed_farm',
                                   nearby_station_name='string(STR_STATION_BARNS)',
                                   fund_cost_multiplier='49')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 # definitely not in Arctic Basic, farm has been added and removed more than once from that economy :P
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['MAIZ', 'LVST']

@@ -7,6 +7,9 @@ acid.cargo.register()
 from cargos import alcohol
 alcohol.cargo.register()
 
+from cargos import ammonia
+ammonia.cargo.register()
+
 from cargos import bauxite
 bauxite.cargo.register()
 
@@ -57,6 +60,9 @@ electrical_machines.cargo.register()
 
 from cargos import engineering_supplies
 engineering_supplies.cargo.register()
+
+from cargos import ethylene
+ethylene.cargo.register()
 
 from cargos import explosives
 explosives.cargo.register()
@@ -150,6 +156,9 @@ pipe.cargo.register()
 
 from cargos import plant_fibres
 plant_fibres.cargo.register()
+
+from cargos import potash
+potash.cargo.register()
 
 from cargos import pyrite_ore
 pyrite_ore.cargo.register()

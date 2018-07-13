@@ -12,7 +12,7 @@ industry = IndustrySecondary(id='lumber_yard',
                              nearby_station_name='string(STR_STATION_CREOSOTING)',
                              fund_cost_multiplier='35')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['BDMT']
 

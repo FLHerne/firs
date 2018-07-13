@@ -15,11 +15,11 @@ industry = IndustryPrimaryPort(id='bulk_terminal',
                                fund_cost_multiplier='152',
                                override_default_construction_states=True)
 
-industry.economy_variations['FIRS'].enabled = True
-industry.economy_variations['FIRS'].accept_cargo_types = ['BDMT', 'PETR', 'FOOD']
-industry.economy_variations['FIRS'].prod_cargo_types = ['AORE', 'RFPR']
-industry.economy_variations['FIRS'].prod_multiplier = '[16, 16]'
-industry.economy_variations['FIRS'].prob_random = '3'
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].accept_cargo_types = ['BDMT', 'PETR', 'FOOD']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['AORE', 'PHOS']
+industry.economy_variations['EXTREME'].prod_multiplier = '[16, 16]'
+industry.economy_variations['EXTREME'].prob_random = '3'
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].accept_cargo_types = ['CLAY', 'FOOD']
