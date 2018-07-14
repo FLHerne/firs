@@ -30,6 +30,7 @@ STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             
 
 STR_CARGO_NAME_ACID                                                             :Acid
 STR_CARGO_NAME_ALCOHOL                                                          :Alcohol
+STR_CARGO_NAME_ALUMINIUM                                                        :Aluminium
 STR_CARGO_NAME_AMMONIA                                                          :Ammonia
 STR_CARGO_NAME_BAUXITE                                                          :Bauxite
 STR_CARGO_NAME_BEANS                                                            :Beans
@@ -81,6 +82,7 @@ STR_CARGO_NAME_STEEL                                                            
 STR_CARGO_NAME_STONE                                                            :Stone
 STR_CARGO_NAME_SUGAR_BEET                                                       :Sugar Beet
 STR_CARGO_NAME_SULPHUR                                                          :Sulphur
+STR_CARGO_NAME_TEXTILES                                                         :Textiles
 STR_CARGO_NAME_VEHICLE_BODIES                                                   :Vehicle Bodies
 STR_CARGO_NAME_VEHICLE_PARTS                                                    :Vehicle Parts
 STR_CARGO_NAME_VEHICLES                                                         :Vehicles
@@ -89,6 +91,7 @@ STR_CARGO_NAME_ZINC                                                             
 
 STR_CARGO_UNIT_ACID                                                             :{VOLUME} of acid
 STR_CARGO_UNIT_ALCOHOL                                                          :{VOLUME} of alcohol
+STR_CARGO_UNIT_ALUMINIUM                                                        :{WEIGHT} of aluminium
 STR_CARGO_UNIT_AMMONIA                                                          :{VOLUME} of ammonia
 STR_CARGO_UNIT_BAUXITE                                                          :{WEIGHT} of bauxite
 STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} of beans
@@ -141,6 +144,7 @@ STR_CARGO_UNIT_STEEL                                                            
 STR_CARGO_UNIT_STONE                                                            :{WEIGHT} of stone
 STR_CARGO_UNIT_SUGAR_BEET                                                       :{WEIGHT} of sugar beet
 STR_CARGO_UNIT_SULPHUR                                                          :{WEIGHT} of sulphur
+STR_CARGO_UNIT_TEXTILES                                                         :{WEIGHT} of textiles
 STR_CARGO_UNIT_VEHICLE_BODIES                                                   :{WEIGHT} of vehicle bodies
 STR_CARGO_UNIT_VEHICLE_PARTS                                                    :{WEIGHT} of vehicle parts
 STR_CARGO_UNIT_VEHICLES                                                         :{WEIGHT} of vehicles
@@ -149,6 +153,7 @@ STR_CARGO_UNIT_ZINC                                                             
 
 STR_CID_ACID                                                                    :{TINYFONT}AC
 STR_CID_ALCOHOL                                                                 :{TINYFONT}AL
+STR_CID_ALUMINIUM                                                               :{TINYFONT}AU
 STR_CID_AMMONIA                                                                 :{TINYFONT}AM
 STR_CID_BAUXITE                                                                 :{TINYFONT}BX
 STR_CID_BEANS                                                                   :{TINYFONT}BN
@@ -200,6 +205,7 @@ STR_CID_STEEL                                                                   
 STR_CID_STONE                                                                   :{TINYFONT}ST
 STR_CID_SUGAR_BEET                                                              :{TINYFONT}SB
 STR_CID_SULPHUR                                                                 :{TINYFONT}SU
+STR_CID_TEXTILES                                                                :{TINYFONT}TX
 STR_CID_VEHICLE_BODIES                                                          :{TINYFONT}VB
 STR_CID_VEHICLE_PARTS                                                           :{TINYFONT}VP
 STR_CID_VEHICLES                                                                :{TINYFONT}VS

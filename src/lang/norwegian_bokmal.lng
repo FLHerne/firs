@@ -239,7 +239,6 @@ STR_IND_ELECTRIC_ARC_FURNACE                                                    
 STR_IND_FACTORY                                                                 :{G=neuter}Fabrikk
 STR_IND_FISHING_GROUND                                                          :{G=masculine}Fiskebanke
 STR_IND_FISHING_HARBOUR                                                         :{G=neuter}Fiskemottak
-STR_IND_FISHING_VILLAGE                                                         :{G=masculine}Fiskerlandsby
 STR_IND_FLOUR_MILL                                                              :{G=feminine}Mølle
 STR_IND_FOOD_MARKET                                                             :{G=masculine}Matbutikk
 STR_IND_FOOD_PROCESSOR                                                          :{G=masculine}Hermetikkfabrikk

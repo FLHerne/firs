@@ -309,10 +309,6 @@ STR_IND_FISHING_HARBOUR                                                         
 STR_IND_FISHING_HARBOUR.abl                                                     :Portu Piscario
 STR_IND_FISHING_HARBOUR.acc                                                     :Portum Piscarium
 STR_IND_FISHING_HARBOUR.gen                                                     :portus piscarii
-STR_IND_FISHING_VILLAGE                                                         :{G=m}Vicus Piscarius
-STR_IND_FISHING_VILLAGE.abl                                                     :Vico Piscario
-STR_IND_FISHING_VILLAGE.acc                                                     :Vicum Piscarium
-STR_IND_FISHING_VILLAGE.gen                                                     :vici piscarii
 STR_IND_FLOUR_MILL                                                              :{G=fp}Molae Frumenti
 STR_IND_FLOUR_MILL.abl                                                          :Molis Frumenti
 STR_IND_FLOUR_MILL.acc                                                          :Molas Frumenti

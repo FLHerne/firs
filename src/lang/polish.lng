@@ -516,11 +516,6 @@ STR_IND_FISHING_GROUND                                                          
 STR_IND_FISHING_GROUND.d                                                        :łowiska
 STR_IND_FISHING_HARBOUR                                                         :{G=m}Port rybacki
 STR_IND_FISHING_HARBOUR.d                                                       :portu rybackiego
-STR_IND_FISHING_VILLAGE                                                         :{G=f}Wioska rybacka
-STR_IND_FISHING_VILLAGE.b                                                       :wioskę rybacką
-STR_IND_FISHING_VILLAGE.c                                                       :wiosce rybackiej
-STR_IND_FISHING_VILLAGE.d                                                       :wioski rybackiej
-STR_IND_FISHING_VILLAGE.n                                                       :wioską rybacką
 STR_IND_FLOUR_MILL                                                              :{G=m}Młyn
 STR_IND_FLOUR_MILL.b                                                            :młyn
 STR_IND_FLOUR_MILL.c                                                            :młynowi

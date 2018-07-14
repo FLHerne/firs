@@ -231,7 +231,6 @@ STR_IND_ELECTRIC_ARC_FURNACE                                                    
 STR_IND_FACTORY                                                                 :Fabrik
 STR_IND_FISHING_GROUND                                                          :{G=p}Fischgründe
 STR_IND_FISHING_HARBOUR                                                         :{G=m}Fischereihafen
-STR_IND_FISHING_VILLAGE                                                         :Fischerdorf
 STR_IND_FLOUR_MILL                                                              :Getreidemühle
 STR_IND_FOOD_MARKET                                                             :{G=m}Lebensmittelladen
 STR_IND_FOOD_PROCESSOR                                                          :Lebensmittelfabrik

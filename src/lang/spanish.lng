@@ -238,7 +238,6 @@ STR_IND_ELECTRIC_ARC_FURNACE                                                    
 STR_IND_FACTORY                                                                 :{G=f}Factoría
 STR_IND_FISHING_GROUND                                                          :{G=f}Zona de Pesca
 STR_IND_FISHING_HARBOUR                                                         :{G=m}Puerto de Pesca
-STR_IND_FISHING_VILLAGE                                                         :Pueblo Pesquero
 STR_IND_FLOUR_MILL                                                              :Molino Harinero
 STR_IND_FOOD_MARKET                                                             :{G=f}Tienda de Comestibles
 STR_IND_FOOD_PROCESSOR                                                          :Planta Procesadora de Alimentos

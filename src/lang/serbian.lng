@@ -160,7 +160,6 @@ STR_IND_DAIRY                                                                   
 STR_IND_DREDGING_SITE                                                           :{G=muški}Iskop
 STR_IND_FISHING_GROUND                                                          :{G=ženski}Ribarska lovišta
 STR_IND_FISHING_HARBOUR                                                         :{G=ženski}Ribarska luka
-STR_IND_FISHING_VILLAGE                                                         :Ribarsko selo
 STR_IND_FLOUR_MILL                                                              :Mlin
 STR_IND_FOOD_MARKET                                                             :{G=ženski}Prodavnica
 STR_IND_FOOD_PROCESSOR                                                          :Kombinat za preradu hrane
