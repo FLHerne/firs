@@ -26,7 +26,7 @@ industry.economy_variations['STEELTOWN'].prod_cargo_types = ['ACID', 'CHLO']
 # Extreme doesn't accept SULP either
 industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('SALT', 8)]
-industry.economy_variations['EXTREME'].prod_cargo_types = ['ACID', 'CHLO']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['LYE_', 'CHLO']
 
 industry.add_tile(id='chemical_plant_tile_1',
                   animation_length=7,

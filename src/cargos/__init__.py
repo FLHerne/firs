@@ -49,6 +49,9 @@ copper.cargo.register()
 from cargos import copper_ore
 copper_ore.cargo.register()
 
+from cargos import cotton
+cotton.cargo.register()
+
 from cargos import diamonds
 diamonds.cargo.register()
 
@@ -105,6 +108,9 @@ kaolin.cargo.register()
 
 from cargos import limestone
 limestone.cargo.register()
+
+from cargos import lye
+lye.cargo.register()
 
 from cargos import mail
 mail.cargo.register()

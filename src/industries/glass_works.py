@@ -16,15 +16,15 @@ industry = IndustrySecondary(id='glass_works',
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].prod_cargo_types = ['GOOD']
 
-industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('SAND', 6), ('SASH', 2)]
-
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['BDMT', 'GOOD']
 
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].processed_cargos_and_output_ratios = [('SAND', 6), ('SASH', 2)]
 industry.economy_variations['STEELTOWN'].prod_cargo_types = ['VPTS']
+
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('SAND', 6), ('SASH', 2)]
 
 industry.add_tile(id='glass_works_tile_1',
                   animation_length=71,
