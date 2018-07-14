@@ -1,28 +1,26 @@
 from industry import IndustrySecondary, TileLocationChecks
 
-industry = IndustrySecondary(id='brewery',
-                             processed_cargos_and_output_ratios=[('MNSP', 2), ('GRAI', 3)],
+industry = IndustrySecondary(id='distillery',
+                             processed_cargos_and_output_ratios=[('MNSP', 2), ('FRUT', 3)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['BEER'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
                              map_colour='191',
-                             # no industry location checks for brewery, by design
-                             name='string(STR_IND_BREWERY)',
+                             # no industry location checks for distillery, by design
+                             name='string(STR_IND_DISTILLERY)',
                              nearby_station_name='string(STR_STATION_BARREL_AND_KEG)',
                              fund_cost_multiplier='50')
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].name = 'string(STR_IND_CIDER_MILL)'
 industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('FRUT', 6)]
-
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('FRUT', 4), ('MAIZ', 4)]
-
 industry.economy_variations['EXTREME'].enabled = True
 
-industry.add_tile(id='brewery_tile_1',
+industry.add_tile(id='distillery_tile_1',
                   animation_length=6,
                   animation_looping=True,
                   animation_speed=3,
@@ -31,7 +29,7 @@ industry.add_tile(id='brewery_tile_1',
                   location_checks=TileLocationChecks(require_effectively_flat=True,
                                                      require_houses_nearby=True,
                                                      disallow_industry_adjacent=True))
-industry.add_tile(id='brewery_tile_2',
+industry.add_tile(id='distillery_tile_2',
                   animation_length=71,
                   animation_looping=True,
                   animation_speed=2,
@@ -74,7 +72,7 @@ sprite_smoke = industry.add_smoke_sprite(
 )
 
 industry.add_spritelayout(
-    id='brewery_spritelayout_1_anim',
+    id='distillery_spritelayout_1_anim',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_1],
@@ -82,14 +80,14 @@ industry.add_spritelayout(
     fences=['nw', 'ne', 'se', 'sw']
 )
 industry.add_spritelayout(
-    id='brewery_spritelayout_2',
+    id='distillery_spritelayout_2',
     ground_sprite=spriteset_ground_anim,
     ground_overlay=spriteset_ground_overlay_anim,
     building_sprites=[spriteset_2_anim],
     fences=['nw', 'ne', 'se', 'sw']
 )
 industry.add_spritelayout(
-    id='brewery_spritelayout_3',
+    id='distillery_spritelayout_3',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_3],
@@ -97,39 +95,39 @@ industry.add_spritelayout(
 )
 
 industry.add_industry_layout(
-    id='brewery_industry_layout_1',
-    layout=[(0, 2, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (1, 0, 'brewery_tile_2', 'brewery_spritelayout_1_anim'),
-            (1, 2, 'brewery_tile_1', 'brewery_spritelayout_2')
+    id='distillery_industry_layout_1',
+    layout=[(0, 2, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (1, 0, 'distillery_tile_2', 'distillery_spritelayout_1_anim'),
+            (1, 2, 'distillery_tile_1', 'distillery_spritelayout_2')
             ]
 )
 industry.add_industry_layout(
-    id='brewery_industry_layout_2',
-    layout=[(0, 0, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (1, 0, 'brewery_tile_1', 'brewery_spritelayout_2'),
-            (2, 0, 'brewery_tile_2', 'brewery_spritelayout_1_anim')
+    id='distillery_industry_layout_2',
+    layout=[(0, 0, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (1, 0, 'distillery_tile_1', 'distillery_spritelayout_2'),
+            (2, 0, 'distillery_tile_2', 'distillery_spritelayout_1_anim')
             ]
 )
 industry.add_industry_layout(
-    id='brewery_industry_layout_3',
-    layout=[(0, 1, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (1, 0, 'brewery_tile_2', 'brewery_spritelayout_1_anim'),
-            (1, 1, 'brewery_tile_1', 'brewery_spritelayout_2')
+    id='distillery_industry_layout_3',
+    layout=[(0, 1, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (1, 0, 'distillery_tile_2', 'distillery_spritelayout_1_anim'),
+            (1, 1, 'distillery_tile_1', 'distillery_spritelayout_2')
             ]
 )
 industry.add_industry_layout(
-    id='brewery_industry_layout_4',
-    layout=[(0, 0, 'brewery_tile_2', 'brewery_spritelayout_1_anim'),
-            (1, 0, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (2, 0, 'brewery_tile_1', 'brewery_spritelayout_2')
+    id='distillery_industry_layout_4',
+    layout=[(0, 0, 'distillery_tile_2', 'distillery_spritelayout_1_anim'),
+            (1, 0, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (2, 0, 'distillery_tile_1', 'distillery_spritelayout_2')
             ]
 )
 industry.add_industry_layout(
-    id='brewery_industry_layout_5',
-    layout=[(0, 0, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (0, 1, 'brewery_tile_1', 'brewery_spritelayout_3'),
-            (1, 0, 'brewery_tile_1', 'brewery_spritelayout_2'),
-            (1, 1, 'brewery_tile_1', 'brewery_spritelayout_2'),
-            (2, 0, 'brewery_tile_2', 'brewery_spritelayout_1_anim')
+    id='distillery_industry_layout_5',
+    layout=[(0, 0, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (0, 1, 'distillery_tile_1', 'distillery_spritelayout_3'),
+            (1, 0, 'distillery_tile_1', 'distillery_spritelayout_2'),
+            (1, 1, 'distillery_tile_1', 'distillery_spritelayout_2'),
+            (2, 0, 'distillery_tile_2', 'distillery_spritelayout_1_anim')
             ]
 )
