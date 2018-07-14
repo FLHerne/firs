@@ -7,6 +7,9 @@ acid.cargo.register()
 from cargos import alcohol
 alcohol.cargo.register()
 
+from cargos import aluminium
+aluminium.cargo.register()
+
 from cargos import ammonia
 ammonia.cargo.register()
 
@@ -204,6 +207,9 @@ sulphur.cargo.register()
 
 from cargos import sugar_beet
 sugar_beet.cargo.register()
+
+from cargos import textiles
+textiles.cargo.register()
 
 from cargos import vehicle_parts
 vehicle_parts.cargo.register()

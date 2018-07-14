@@ -7,7 +7,6 @@ industry = IndustrySecondary(id='factory',
                              prob_random='8',
                              prod_multiplier='[0, 0]',
                              map_colour='186',
-                             prospect_chance='0.75',
                              name='string(STR_IND_FACTORY)',
                              nearby_station_name='string(STR_STATION_INDUSTRY_ESTATE_1)',
                              fund_cost_multiplier='95')

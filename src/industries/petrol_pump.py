@@ -15,10 +15,12 @@ industry = IndustryTertiary(id='petrol_pump',
                             fund_cost_multiplier='8',
                             intro_year=1900)
 
-industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prob_random = '8'
 industry.economy_variations['MISTAH_KURTZ'].prob_in_game = '8'
+
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].accept_cargo_types=['FOOD', 'PETR']
 
 industry.add_tile(id='petrol_pump_tile_1',
                   location_checks=TileLocationChecks(require_road_adjacent=True,

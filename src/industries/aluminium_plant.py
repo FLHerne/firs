@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(id='aluminium_plant',
                              processed_cargos_and_output_ratios=[('AORE', 3), ('LYE_', 2), ('SCMT', 3)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['METL'],
+                             prod_cargo_types=['ALUM'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
