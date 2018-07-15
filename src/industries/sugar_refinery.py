@@ -1,9 +1,8 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='sugar_refinery',
-                             processed_cargos_and_output_ratios=[('MNSP', 3), ('SGBT', 5)],
-                             combined_cargos_boost_prod=True,
-                             prod_cargo_types=['FOOD'],
+                             processed_cargos_and_output_ratios=[('SGBT', 5)],
+                             prod_cargo_types=['SUGR'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',

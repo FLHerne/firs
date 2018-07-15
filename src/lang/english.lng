@@ -44,20 +44,23 @@ STR_CARGO_NAME_COFFEE                                                           
 STR_CARGO_NAME_COKE                                                             :Coke
 STR_CARGO_NAME_COPPER                                                           :Copper
 STR_CARGO_NAME_COTTON                                                           :Cotton
+STR_CARGO_NAME_DAIRY_PRODUCTS                                                   :Dairy Products
 STR_CARGO_NAME_EDIBLE_OIL                                                       :Edible Oil
 STR_CARGO_NAME_ELECTRICAL_MACHINES                                              :Electrical Machines
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :Engineering Supplies
 STR_CARGO_NAME_ETHYLENE                                                         :Ethylene
 STR_CARGO_NAME_EXPLOSIVES                                                       :Explosives
-STR_CARGO_NAME_FIBRES                                                           :Plant Fibres
-STR_CARGO_NAME_FISH                                                             :Fish
 STR_CARGO_NAME_FARM_SUPPLIES                                                    :Farm Supplies
 STR_CARGO_NAME_FERTILISER                                                       :Fertiliser
+STR_CARGO_NAME_FIBRES                                                           :Plant Fibres
+STR_CARGO_NAME_FISH                                                             :Fish
+STR_CARGO_NAME_FLOUR                                                            :Flour
 STR_CARGO_NAME_FRUITS                                                           :Fruit
 STR_CARGO_NAME_KAOLIN                                                           :Kaolin
 STR_CARGO_NAME_LIMESTONE                                                        :Limestone
 STR_CARGO_NAME_LUMBER                                                           :Timber
 STR_CARGO_NAME_LYE                                                              :Lye
+STR_CARGO_NAME_MEAT                                                             :Meat
 STR_CARGO_NAME_METAL                                                            :Metal
 STR_CARGO_NAME_MILK                                                             :Milk
 STR_CARGO_NAME_MANGANESE                                                        :Manganese
@@ -80,6 +83,7 @@ STR_CARGO_NAME_SLAG                                                             
 STR_CARGO_NAME_SODA_ASH                                                         :Soda Ash
 STR_CARGO_NAME_STEEL                                                            :Steel
 STR_CARGO_NAME_STONE                                                            :Stone
+STR_CARGO_NAME_SUGAR                                                            :Sugar
 STR_CARGO_NAME_SUGAR_BEET                                                       :Sugar Beet
 STR_CARGO_NAME_SULPHUR                                                          :Sulphur
 STR_CARGO_NAME_TEXTILES                                                         :Textiles
@@ -105,6 +109,7 @@ STR_CARGO_UNIT_COFFEE                                                           
 STR_CARGO_UNIT_COKE                                                             :{WEIGHT} of coke
 STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} of copper
 STR_CARGO_UNIT_COTTON                                                           :{WEIGHT} of cotton
+STR_CARGO_UNIT_DAIRY_PRODUCTS                                                   :{WEIGHT} of dairy products
 STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} of edible oil
 STR_CARGO_UNIT_ELECTRICAL_MACHINES                                              :{WEIGHT} of electrical machines
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} crate{P 0 "" s} of engineering supplies
@@ -113,6 +118,7 @@ STR_CARGO_UNIT_EXPLOSIVES                                                       
 STR_CARGO_UNIT_FERTILISER                                                       :{WEIGHT} of fertiliser
 STR_CARGO_UNIT_FIBRES                                                           :{SIGNED_WORD} bale{P 0 "" s} of plant fibres
 STR_CARGO_UNIT_FISH                                                             :{WEIGHT} of fish
+STR_CARGO_UNIT_FLOUR                                                            :{WEIGHT} of flour
 STR_CARGO_UNIT_FMSP                                                             :{SIGNED_WORD} crate{P 0 "" s} of farm supplies
 STR_CARGO_UNIT_FRUITS                                                           :{WEIGHT} of fruit
 STR_CARGO_UNIT_KAOLIN                                                           :{WEIGHT} of kaolin
@@ -120,6 +126,7 @@ STR_CARGO_UNIT_LIMESTONE                                                        
 STR_CARGO_UNIT_LUMBER                                                           :{WEIGHT} of timber
 STR_CARGO_UNIT_LYE                                                              :{VOLUME} of lye
 STR_CARGO_UNIT_MANGANESE                                                        :{WEIGHT} of manganese
+STR_CARGO_UNIT_MEAT                                                             :{WEIGHT} of meat
 STR_CARGO_UNIT_METAL                                                            :{WEIGHT} of metal
 STR_CARGO_UNIT_MILK                                                             :{VOLUME} of milk
 STR_CARGO_UNIT_NICKEL                                                           :{WEIGHT} of nickel
@@ -142,6 +149,7 @@ STR_CARGO_UNIT_SLAG                                                             
 STR_CARGO_UNIT_SODA_ASH                                                         :{WEIGHT} of soda ash
 STR_CARGO_UNIT_STEEL                                                            :{WEIGHT} of steel
 STR_CARGO_UNIT_STONE                                                            :{WEIGHT} of stone
+STR_CARGO_UNIT_SUGAR                                                            :{WEIGHT} of sugar
 STR_CARGO_UNIT_SUGAR_BEET                                                       :{WEIGHT} of sugar beet
 STR_CARGO_UNIT_SULPHUR                                                          :{WEIGHT} of sulphur
 STR_CARGO_UNIT_TEXTILES                                                         :{WEIGHT} of textiles
@@ -167,20 +175,23 @@ STR_CID_COFFEE                                                                  
 STR_CID_COKE                                                                    :{TINYFONT}CK
 STR_CID_COPPER                                                                  :{TINYFONT}CR
 STR_CID_COTTON                                                                  :{TINYFONT}CT
+STR_CID_DAIRY_PRODUCTS                                                          :{TINYFONT}DA
 STR_CID_EDIBLE_OIL                                                              :{TINYFONT}EO
 STR_CID_ELECTRICAL_MACHINES                                                     :{TINYFONT}EM
 STR_CID_ENGINEERING_SUPPLIES                                                    :{TINYFONT}ES
 STR_CID_ETHYLENE                                                                :{TINYFONT}ET
 STR_CID_EXPLOSIVES                                                              :{TINYFONT}EX
 STR_CID_FARM_SUPPLIES                                                           :{TINYFONT}FS
-STR_CID_FERTILISER                                                              :{TINYFONT}FL
+STR_CID_FERTILISER                                                              :{TINYFONT}FT
 STR_CID_FIBRES                                                                  :{TINYFONT}PF
+STR_CID_FLOUR                                                                   :{TINYFONT}FL
 STR_CID_FISH                                                                    :{TINYFONT}FI
 STR_CID_KAOLIN                                                                  :{TINYFONT}KA
 STR_CID_LIMESTONE                                                               :{TINYFONT}LS
 STR_CID_LUMBER                                                                  :{TINYFONT}LU
 STR_CID_LYE                                                                     :{TINYFONT}LY
 STR_CID_MANGANESE                                                               :{TINYFONT}MN
+STR_CID_MEAT                                                                    :{TINYFONT}ME
 STR_CID_METAL                                                                   :{TINYFONT}MT
 STR_CID_MILK                                                                    :{TINYFONT}MK
 STR_CID_NICKEL                                                                  :{TINYFONT}NK
@@ -203,6 +214,7 @@ STR_CID_SLAG                                                                    
 STR_CID_SODA_ASH                                                                :{TINYFONT}SO
 STR_CID_STEEL                                                                   :{TINYFONT}SL
 STR_CID_STONE                                                                   :{TINYFONT}ST
+STR_CID_SUGAR                                                                   :{TINYFONT}SR
 STR_CID_SUGAR_BEET                                                              :{TINYFONT}SB
 STR_CID_SULPHUR                                                                 :{TINYFONT}SU
 STR_CID_TEXTILES                                                                :{TINYFONT}TX
@@ -231,6 +243,7 @@ STR_IND_ALUMINIUM_PLANT                                                         
 STR_IND_AMMONIA_PLANT                                                           :Ammonia Plant
 STR_IND_ARABLE_FARM                                                             :Arable Farm
 STR_IND_ASSEMBLY_PLANT                                                          :Assembly Plant
+STR_IND_BAKERY                                                                  :Bakery
 STR_IND_BASICFARM                                                               :Farm
 STR_IND_BASIC_OXYGEN_FURNACE                                                    :Basic Oxygen Furnace
 STR_IND_BIOREFINERY                                                             :Biorefinery
@@ -239,6 +252,7 @@ STR_IND_BREWERY                                                                 
 STR_IND_CIDER_MILL                                                              :Cider Mill
 STR_IND_BRICK_WORKS                                                             :Brick Works
 STR_IND_BUILDERS_YARD                                                           :Builders Yard
+STR_IND_BUTCHERS_SHOP                                                           :Butchers Shop
 STR_IND_BULK_TERMINAL                                                           :Bulk Terminal
 STR_IND_CEMENT_PLANT                                                            :Cement Plant
 STR_IND_CHEMICAL_PLANT                                                          :Chemical Plant

@@ -41,8 +41,8 @@ industry.economy_variations['STEELTOWN'].prod_cargo_types = ['ZINC', 'RUBR']
 industry.economy_variations['STEELTOWN'].prod_multiplier = '[16, 16]'
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].accept_cargo_types = ['TEXT', 'FRUT', 'MNSP']
-industry.economy_variations['EXTREME'].prod_cargo_types = ['COTT', 'FMSP']
+industry.economy_variations['EXTREME'].accept_cargo_types = ['TEXT', 'FRUT']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['COTT', 'JAVA']
 industry.economy_variations['EXTREME'].prod_multiplier = '[9, 7]'
 
 industry.add_tile(id='port_tile_1',

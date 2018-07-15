@@ -13,11 +13,6 @@ industry = IndustrySecondary(id='distillery',
                              nearby_station_name='string(STR_STATION_BARREL_AND_KEG)',
                              fund_cost_multiplier='50')
 
-industry.economy_variations['BASIC_TEMPERATE'].enabled = True
-industry.economy_variations['BASIC_TEMPERATE'].name = 'string(STR_IND_CIDER_MILL)'
-industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('FRUT', 6)]
-industry.economy_variations['MISTAH_KURTZ'].enabled = True
-industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('FRUT', 4), ('MAIZ', 4)]
 industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='distillery_tile_1',

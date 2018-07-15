@@ -55,6 +55,9 @@ copper_ore.cargo.register()
 from cargos import cotton
 cotton.cargo.register()
 
+from cargos import dairy_products
+dairy_products.cargo.register()
+
 from cargos import diamonds
 diamonds.cargo.register()
 
@@ -84,6 +87,9 @@ fish.cargo.register()
 
 from cargos import food
 food.cargo.register()
+
+from cargos import flour
+flour.cargo.register()
 
 from cargos import fruits
 fruits.cargo.register()
@@ -124,8 +130,8 @@ maize.cargo.register()
 from cargos import manganese
 manganese.cargo.register()
 
-from cargos import packaging
-packaging.cargo.register()
+from cargos import meat
+meat.cargo.register()
 
 from cargos import metal
 metal.cargo.register()
@@ -141,6 +147,9 @@ nuts.cargo.register()
 
 from cargos import oil
 oil.cargo.register()
+
+from cargos import packaging
+packaging.cargo.register()
 
 from cargos import paper
 paper.cargo.register()
@@ -204,6 +213,9 @@ stone.cargo.register()
 
 from cargos import sulphur
 sulphur.cargo.register()
+
+from cargos import sugar
+sugar.cargo.register()
 
 from cargos import sugar_beet
 sugar_beet.cargo.register()

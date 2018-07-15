@@ -13,6 +13,9 @@ arable_farm.industry.register()
 from industries import assembly_plant
 assembly_plant.industry.register()
 
+from industries import bakery
+bakery.industry.register()
+
 from industries import basic_oxygen_furnace
 basic_oxygen_furnace.industry.register()
 
@@ -33,6 +36,9 @@ builders_yard.industry.register()
 
 from industries import bulk_terminal
 bulk_terminal.industry.register()
+
+from industries import butchers_shop
+butchers_shop.industry.register()
 
 from industries import cement_plant
 cement_plant.industry.register()

@@ -17,9 +17,6 @@ industry = IndustryPrimaryOrganic(id='vineyard',
 industry.economy_variations['BASIC_TROPIC'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].prod_multiplier = '[9, 9]'
 
-industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].prod_cargo_types=['BEER']
-
 industry.add_tile(id='vineyard_tile_1',
                   foundations='return CB_RESULT_NO_FOUNDATIONS',
                   autoslope='return CB_RESULT_NO_AUTOSLOPE',
