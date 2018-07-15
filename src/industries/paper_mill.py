@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(id='paper_mill',
                              processed_cargos_and_output_ratios=[('LYE_', 2), ('WOOD', 4), ('SULP', 2)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['GOOD', 'MNSP'],
+                             prod_cargo_types=['GOOD'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -19,6 +19,7 @@ industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types = ['PAPR']
 industry.economy_variations['BASIC_ARCTIC'].processed_cargos_and_output_ratios = [('KAOL', 2), ('WOOD', 4), ('SULP', 2)]
 
 industry.economy_variations['EXTREME'].enabled = True
+
 
 # industry uses layouts and sprites from default game, no custom layouts etc
 
