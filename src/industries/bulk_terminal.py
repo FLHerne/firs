@@ -41,7 +41,7 @@ industry.economy_variations['STEELTOWN'].prod_multiplier = '[19, 12]'
 
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].accept_cargo_types = ['CMNT', 'SULP']
+industry.economy_variations['EXTREME'].accept_cargo_types = ['CMNT']
 industry.economy_variations['EXTREME'].prod_cargo_types = ['AORE', 'PHOS']
 industry.economy_variations['EXTREME'].prod_multiplier = '[16, 16]'
 industry.economy_variations['EXTREME'].prob_random = '3'
