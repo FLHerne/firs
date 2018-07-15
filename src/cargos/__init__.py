@@ -94,6 +94,9 @@ flour.cargo.register()
 from cargos import fruits
 fruits.cargo.register()
 
+from cargos import furniture
+furniture.cargo.register()
+
 from cargos import vehicle_bodies
 vehicle_bodies.cargo.register()
 
