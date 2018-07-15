@@ -1,7 +1,7 @@
 from industry import IndustryPrimaryOrganic, TileLocationChecks
 
 industry = IndustryPrimaryOrganic(id='mixed_farm',
-                                  prod_cargo_types=['LVST', 'FICR'],
+                                  prod_cargo_types=['LVST', 'SGBT'],
                                   prob_in_game='3',
                                   prob_random='11',
                                   prod_multiplier='[13, 14]',
@@ -14,7 +14,6 @@ industry = IndustryPrimaryOrganic(id='mixed_farm',
                                   nearby_station_name='string(STR_STATION_BARNS)',
                                   fund_cost_multiplier='49')
 
-industry.economy_variations['EXTREME'].enabled = True
 # definitely not in Arctic Basic, farm has been added and removed more than once from that economy :P
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['MAIZ', 'LVST']
@@ -24,6 +23,8 @@ industry.economy_variations['MISTAH_KURTZ'].prod_multiplier = '[14, 13]'
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].name = 'string(STR_IND_BASICFARM)'
 industry.economy_variations['STEELTOWN'].prod_cargo_types = ['FOOD']
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='mixed_farm_tile_1',
                   location_checks=TileLocationChecks(disallow_steep_slopes=True,

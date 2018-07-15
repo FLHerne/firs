@@ -1,8 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='dairy',
-                             processed_cargos_and_output_ratios=[('MNSP', 2), ('MILK', 6)],
-                             combined_cargos_boost_prod=True,
+                             processed_cargos_and_output_ratios=[('MILK', 8)],
                              prod_cargo_types=['FOOD'],
                              prob_in_game='3',
                              prob_random='5',
@@ -14,7 +13,7 @@ industry = IndustrySecondary(id='dairy',
                              fund_cost_multiplier='45')
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
-industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('MILK', 6)]
+industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('MILK', 8)]
 
 industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['EXTREME'].prod_cargo_types=['CHSE']

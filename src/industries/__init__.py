@@ -106,6 +106,9 @@ general_store.industry.register()
 from industries import glass_works
 glass_works.industry.register()
 
+from industries import greengrocers
+greengrocers.industry.register()
+
 from industries import hardware_store
 hardware_store.industry.register()
 

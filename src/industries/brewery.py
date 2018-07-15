@@ -20,8 +20,6 @@ industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratio
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('FRUT', 4), ('MAIZ', 4)]
 
-industry.economy_variations['EXTREME'].enabled = True
-
 industry.add_tile(id='brewery_tile_1',
                   animation_length=6,
                   animation_looping=True,
