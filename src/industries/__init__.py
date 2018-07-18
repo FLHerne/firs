@@ -67,6 +67,9 @@ dairy.industry.register()
 from industries import dairy_farm
 dairy_farm.industry.register()
 
+from industries import detergent_factory
+detergent_factory.industry.register()
+
 from industries import diamond_mine
 diamond_mine.industry.register()
 

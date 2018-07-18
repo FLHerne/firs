@@ -22,6 +22,9 @@ beans.cargo.register()
 from cargos import building_materials
 building_materials.cargo.register()
 
+from cargos import canned_food
+canned_food.cargo.register()
+
 from cargos import cassava
 cassava.cargo.register()
 
@@ -177,6 +180,9 @@ pipe.cargo.register()
 
 from cargos import plant_fibres
 plant_fibres.cargo.register()
+
+from cargos import plastic
+plastic.cargo.register()
 
 from cargos import potash
 potash.cargo.register()

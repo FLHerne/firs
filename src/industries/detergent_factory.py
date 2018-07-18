@@ -1,19 +1,19 @@
 from industry import IndustrySecondary, TileLocationChecks
 
-industry = IndustrySecondary(id='factory',
+industry = IndustrySecondary(id='detergent_factory',
                              processed_cargos_and_output_ratios=[('LYE_', 8), ('SASH', 8), ('AMMO', 8)],
                              prod_cargo_types=['GOOD'],
                              prob_in_game='7',
                              prob_random='8',
                              prod_multiplier='[0, 0]',
                              map_colour='186',
-                             name='string(STR_IND_FACTORY)',
+                             name='string(STR_IND_DETERGENT_FACTORY)',
                              nearby_station_name='string(STR_STATION_INDUSTRY_ESTATE_1)',
                              fund_cost_multiplier='95')
 
-# industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
-industry.add_tile(id='factory_tile_1',
+industry.add_tile(id='detergent_factory_tile_1',
                   animation_length=71,
                   animation_looping=True,
                   animation_speed=2,
@@ -55,21 +55,21 @@ sprite_smoke = industry.add_smoke_sprite(
 )
 
 industry.add_spritelayout(
-    id='factory_spritelayout_1',
+    id='detergent_factory_spritelayout_1',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay_1,
     building_sprites=[spriteset_1],
     fences=['nw', 'ne', 'se', 'sw']
 )
 industry.add_spritelayout(
-    id='factory_spritelayout_2',
+    id='detergent_factory_spritelayout_2',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay_2,
     building_sprites=[spriteset_2],
     fences=['nw', 'ne', 'se', 'sw']
 )
 industry.add_spritelayout(
-    id='factory_spritelayout_3',
+    id='detergent_factory_spritelayout_3',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay_3,
     building_sprites=[spriteset_3],
@@ -77,7 +77,7 @@ industry.add_spritelayout(
     fences=['nw', 'ne', 'se', 'sw']
 )
 industry.add_spritelayout(
-    id='factory_spritelayout_4',
+    id='detergent_factory_spritelayout_4',
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay_4,
     building_sprites=[],
@@ -85,38 +85,38 @@ industry.add_spritelayout(
 )
 
 industry.add_industry_layout(
-    id='factory_industry_layout_1',
-    layout=[(0, 0, 'factory_tile_1', 'factory_spritelayout_4'),
-            (0, 1, 'factory_tile_1', 'factory_spritelayout_3'),
-            (1, 0, 'factory_tile_1', 'factory_spritelayout_1'),
-            (1, 1, 'factory_tile_1', 'factory_spritelayout_2'),
+    id='detergent_factory_industry_layout_1',
+    layout=[(0, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (0, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (1, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (1, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2'),
             ]
 )
 industry.add_industry_layout(
-    id='factory_industry_layout_2',
-    layout=[(0, 0, 'factory_tile_1', 'factory_spritelayout_4'),
-            (0, 1, 'factory_tile_1', 'factory_spritelayout_3'),
-            (1, 0, 'factory_tile_1', 'factory_spritelayout_1'),
-            (1, 1, 'factory_tile_1', 'factory_spritelayout_2'),
-            (2, 0, 'factory_tile_1', 'factory_spritelayout_4'),
-            (2, 1, 'factory_tile_1', 'factory_spritelayout_3'),
-            (3, 0, 'factory_tile_1', 'factory_spritelayout_1'),
-            (3, 1, 'factory_tile_1', 'factory_spritelayout_2'),
+    id='detergent_factory_industry_layout_2',
+    layout=[(0, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (0, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (1, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (1, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2'),
+            (2, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (2, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (3, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (3, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2'),
             ]
 )
 industry.add_industry_layout(
-    id='factory_industry_layout_3',
-    layout=[(0, 0, 'factory_tile_1', 'factory_spritelayout_4'),
-            (0, 1, 'factory_tile_1', 'factory_spritelayout_3'),
-            (0, 2, 'factory_tile_1', 'factory_spritelayout_4'),
-            (0, 3, 'factory_tile_1', 'factory_spritelayout_3'),
-            (1, 0, 'factory_tile_1', 'factory_spritelayout_1'),
-            (1, 1, 'factory_tile_1', 'factory_spritelayout_2'),
-            (1, 2, 'factory_tile_1', 'factory_spritelayout_1'),
-            (1, 3, 'factory_tile_1', 'factory_spritelayout_2'),
-            (2, 1, 'factory_tile_1', 'factory_spritelayout_4'),
-            (2, 2, 'factory_tile_1', 'factory_spritelayout_3'),
-            (3, 1, 'factory_tile_1', 'factory_spritelayout_1'),
-            (3, 2, 'factory_tile_1', 'factory_spritelayout_2')
+    id='detergent_factory_industry_layout_3',
+    layout=[(0, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (0, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (0, 2, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (0, 3, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (1, 0, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (1, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2'),
+            (1, 2, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (1, 3, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2'),
+            (2, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_4'),
+            (2, 2, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_3'),
+            (3, 1, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_1'),
+            (3, 2, 'detergent_factory_tile_1', 'detergent_factory_spritelayout_2')
             ]
 )

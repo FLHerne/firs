@@ -35,6 +35,7 @@ STR_CARGO_NAME_AMMONIA                                                          
 STR_CARGO_NAME_BAUXITE                                                          :Bauxite
 STR_CARGO_NAME_BEANS                                                            :Beans
 STR_CARGO_NAME_BUILDING_MATERIALS                                               :Building Materials
+STR_CARGO_NAME_CANNED_FOOD                                                      :Canned Food
 STR_CARGO_NAME_CASSAVA                                                          :Cassava
 STR_CARGO_NAME_CEMENT                                                           :Cement
 STR_CARGO_NAME_CHEMICALS                                                        :Chemicals
@@ -73,6 +74,7 @@ STR_CARGO_NAME_PETROL                                                           
 STR_CARGO_NAME_PHOSPHATE                                                        :Phosphate
 STR_CARGO_NAME_PIG_IRON                                                         :Pig Iron
 STR_CARGO_NAME_PIPE                                                             :Pipe
+STR_CARGO_NAME_PLASTIC                                                          :Plastic
 STR_CARGO_NAME_POTASH                                                           :Potash
 STR_CARGO_NAME_POTATOS                                                          :Potatos
 STR_CARGO_NAME_PYRITE_ORE                                                       :Pyrite Ore
@@ -102,6 +104,7 @@ STR_CARGO_UNIT_AMMONIA                                                          
 STR_CARGO_UNIT_BAUXITE                                                          :{WEIGHT} of bauxite
 STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} of beans
 STR_CARGO_UNIT_BUILDING_MATERIALS                                               :{WEIGHT} of building materials
+STR_CARGO_UNIT_CANNED_FOOD                                                      :{WEIGHT} of canned food
 STR_CARGO_UNIT_CASSAVA                                                          :{WEIGHT} of cassava
 STR_CARGO_UNIT_CEMENT                                                           :{WEIGHT} of cement
 STR_CARGO_UNIT_CHEMICALS                                                        :{VOLUME} of chemicals
@@ -141,6 +144,7 @@ STR_CARGO_UNIT_PETROL                                                           
 STR_CARGO_UNIT_PHOSPHATE                                                        :{WEIGHT} of phosphate
 STR_CARGO_UNIT_PIG_IRON                                                         :{WEIGHT} of pig iron
 STR_CARGO_UNIT_PIPE                                                             :{WEIGHT} of pipe
+STR_CARGO_UNIT_PLASTIC                                                          :{WEIGHT} of plastic
 STR_CARGO_UNIT_POTASH                                                           :{WEIGHT} of potash
 STR_CARGO_UNIT_POTATOS                                                          :{WEIGHT} of potatoes
 STR_CARGO_UNIT_PYRITE_ORE                                                       :{WEIGHT} of pyrite ore
@@ -170,6 +174,7 @@ STR_CID_AMMONIA                                                                 
 STR_CID_BAUXITE                                                                 :{TINYFONT}BX
 STR_CID_BEANS                                                                   :{TINYFONT}BN
 STR_CID_BUILDING_MATERIALS                                                      :{TINYFONT}BM
+STR_CID_CANNED_FOOD                                                             :{TINYFONT}CF
 STR_CID_CASSAVA                                                                 :{TINYFONT}CA
 STR_CID_CEMENT                                                                  :{TINYFONT}CE
 STR_CID_CHEMICALS                                                               :{TINYFONT}CH
@@ -207,6 +212,7 @@ STR_CID_PEAT                                                                    
 STR_CID_PETROL                                                                  :{TINYFONT}PT
 STR_CID_PIG_IRON                                                                :{TINYFONT}PI
 STR_CID_PIPE                                                                    :{TINYFONT}PP
+STR_CID_PLASTIC                                                                 :{TINYFONT}PL
 STR_CID_PHOSPHATE                                                               :{TINYFONT}PH
 STR_CID_POTASH                                                                  :{TINYFONT}PA
 STR_CID_POTATOS                                                                 :{TINYFONT}PO
@@ -268,6 +274,7 @@ STR_IND_COKE_OVEN                                                               
 STR_IND_COPPER_REFINERY                                                         :Copper Refinery
 STR_IND_DAIRY                                                                   :Dairy
 STR_IND_DAIRY_FARM                                                              :Dairy Farm
+STR_IND_DETERGENT_FACTORY                                                       :Detergent Factory
 STR_IND_DISTILLERY                                                              :Distillery
 STR_IND_DREDGING_SITE                                                           :Dredging Site
 STR_IND_ELECTRIC_ARC_FURNACE                                                    :Electric Arc Furnace
