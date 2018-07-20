@@ -23,7 +23,6 @@ industry.economy_variations['BASIC_ARCTIC'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].accept_cargo_types=['BEER', 'PASS']
 
 industry.add_tile(id='hotel_tile_1',
                   location_checks=TileLocationChecks(require_effectively_flat=True,

@@ -22,7 +22,6 @@ industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('LVST', 6)]
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].prod_cargo_types=['MEAT']
 
 industry.add_tile(id='stockyard_tile_1',
                   animation_length=7,

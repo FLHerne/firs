@@ -12,9 +12,14 @@ industry = IndustrySecondary(id='food_processor',
                              fund_cost_multiplier='65')
 
 industry.economy_variations['BASIC_TROPIC'].enabled = True
+
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('NUTS', 6), ('FRUT', 6)]
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['EOIL', 'FOOD']
+
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('EOIL', 6), ('TATO', 6)]
+industry.economy_variations['EXTREME'].prod_cargo_types = ['FOOD']
 
 industry.add_tile(id='food_processor_tile_1',
                   location_checks=TileLocationChecks(require_effectively_flat=True,

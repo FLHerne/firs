@@ -35,7 +35,6 @@ STR_CARGO_NAME_AMMONIA                                                          
 STR_CARGO_NAME_BAUXITE                                                          :Bauxite
 STR_CARGO_NAME_BEANS                                                            :Beans
 STR_CARGO_NAME_BUILDING_MATERIALS                                               :Building Materials
-STR_CARGO_NAME_CANNED_FOOD                                                      :Canned Food
 STR_CARGO_NAME_CASSAVA                                                          :Cassava
 STR_CARGO_NAME_CEMENT                                                           :Cement
 STR_CARGO_NAME_CHEMICALS                                                        :Chemicals
@@ -45,7 +44,6 @@ STR_CARGO_NAME_COFFEE                                                           
 STR_CARGO_NAME_COKE                                                             :Coke
 STR_CARGO_NAME_COPPER                                                           :Copper
 STR_CARGO_NAME_COTTON                                                           :Cotton
-STR_CARGO_NAME_DAIRY_PRODUCTS                                                   :Dairy Products
 STR_CARGO_NAME_EDIBLE_OIL                                                       :Edible Oil
 STR_CARGO_NAME_ELECTRICAL_MACHINES                                              :Electrical Machines
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :Engineering Supplies
@@ -62,7 +60,6 @@ STR_CARGO_NAME_KAOLIN                                                           
 STR_CARGO_NAME_LIMESTONE                                                        :Limestone
 STR_CARGO_NAME_LUMBER                                                           :Timber
 STR_CARGO_NAME_LYE                                                              :Lye
-STR_CARGO_NAME_MEAT                                                             :Meat
 STR_CARGO_NAME_METAL                                                            :Metal
 STR_CARGO_NAME_MILK                                                             :Milk
 STR_CARGO_NAME_MANGANESE                                                        :Manganese
@@ -104,7 +101,6 @@ STR_CARGO_UNIT_AMMONIA                                                          
 STR_CARGO_UNIT_BAUXITE                                                          :{WEIGHT} of bauxite
 STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} of beans
 STR_CARGO_UNIT_BUILDING_MATERIALS                                               :{WEIGHT} of building materials
-STR_CARGO_UNIT_CANNED_FOOD                                                      :{WEIGHT} of canned food
 STR_CARGO_UNIT_CASSAVA                                                          :{WEIGHT} of cassava
 STR_CARGO_UNIT_CEMENT                                                           :{WEIGHT} of cement
 STR_CARGO_UNIT_CHEMICALS                                                        :{VOLUME} of chemicals
@@ -114,7 +110,6 @@ STR_CARGO_UNIT_COFFEE                                                           
 STR_CARGO_UNIT_COKE                                                             :{WEIGHT} of coke
 STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} of copper
 STR_CARGO_UNIT_COTTON                                                           :{WEIGHT} of cotton
-STR_CARGO_UNIT_DAIRY_PRODUCTS                                                   :{WEIGHT} of dairy products
 STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} of edible oil
 STR_CARGO_UNIT_ELECTRICAL_MACHINES                                              :{WEIGHT} of electrical machines
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} crate{P 0 "" s} of engineering supplies
@@ -132,7 +127,6 @@ STR_CARGO_UNIT_LIMESTONE                                                        
 STR_CARGO_UNIT_LUMBER                                                           :{WEIGHT} of timber
 STR_CARGO_UNIT_LYE                                                              :{VOLUME} of lye
 STR_CARGO_UNIT_MANGANESE                                                        :{WEIGHT} of manganese
-STR_CARGO_UNIT_MEAT                                                             :{WEIGHT} of meat
 STR_CARGO_UNIT_METAL                                                            :{WEIGHT} of metal
 STR_CARGO_UNIT_MILK                                                             :{VOLUME} of milk
 STR_CARGO_UNIT_NICKEL                                                           :{WEIGHT} of nickel
@@ -174,7 +168,6 @@ STR_CID_AMMONIA                                                                 
 STR_CID_BAUXITE                                                                 :{TINYFONT}BX
 STR_CID_BEANS                                                                   :{TINYFONT}BN
 STR_CID_BUILDING_MATERIALS                                                      :{TINYFONT}BM
-STR_CID_CANNED_FOOD                                                             :{TINYFONT}CF
 STR_CID_CASSAVA                                                                 :{TINYFONT}CA
 STR_CID_CEMENT                                                                  :{TINYFONT}CE
 STR_CID_CHEMICALS                                                               :{TINYFONT}CH
@@ -184,7 +177,6 @@ STR_CID_COFFEE                                                                  
 STR_CID_COKE                                                                    :{TINYFONT}CK
 STR_CID_COPPER                                                                  :{TINYFONT}CR
 STR_CID_COTTON                                                                  :{TINYFONT}CT
-STR_CID_DAIRY_PRODUCTS                                                          :{TINYFONT}DA
 STR_CID_EDIBLE_OIL                                                              :{TINYFONT}EO
 STR_CID_ELECTRICAL_MACHINES                                                     :{TINYFONT}EM
 STR_CID_ENGINEERING_SUPPLIES                                                    :{TINYFONT}ES
@@ -201,7 +193,6 @@ STR_CID_LIMESTONE                                                               
 STR_CID_LUMBER                                                                  :{TINYFONT}LU
 STR_CID_LYE                                                                     :{TINYFONT}LY
 STR_CID_MANGANESE                                                               :{TINYFONT}MN
-STR_CID_MEAT                                                                    :{TINYFONT}ME
 STR_CID_METAL                                                                   :{TINYFONT}MT
 STR_CID_MILK                                                                    :{TINYFONT}MK
 STR_CID_NICKEL                                                                  :{TINYFONT}NK

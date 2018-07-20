@@ -18,8 +18,12 @@ industry = IndustryPrimaryNoSupplies(id='fishing_grounds',
                                      fund_cost_multiplier='88')
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
+
 industry.economy_variations['BASIC_TROPIC'].enabled = True
+
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='fishing_grounds_tile_1',
                   location_checks=TileLocationChecks(disallow_industry_adjacent=True))

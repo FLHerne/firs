@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(id='fishing_harbour',
                              processed_cargos_and_output_ratios=[('FISH', 6)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['CAND'],
+                             prod_cargo_types=['FOOD'],
                              prob_in_game='10',
                              prob_random='10',
                              prod_multiplier='[0, 0]',
@@ -16,13 +16,10 @@ industry = IndustrySecondary(id='fishing_harbour',
                              override_default_construction_states=True)
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
-industry.economy_variations['BASIC_TEMPERATE'].prod_cargo_types=['FOOD']
 
 industry.economy_variations['BASIC_TROPIC'].enabled = True
-industry.economy_variations['BASIC_TROPIC'].prod_cargo_types=['FOOD']
 
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
-industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types=['FOOD']
 
 industry.economy_variations['EXTREME'].enabled = True
 

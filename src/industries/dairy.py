@@ -13,10 +13,8 @@ industry = IndustrySecondary(id='dairy',
                              fund_cost_multiplier='45')
 
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
-industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('MILK', 8)]
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].prod_cargo_types=['CHSE']
 
 # tile with animation for flag
 industry.add_tile(id='dairy_tile_1',

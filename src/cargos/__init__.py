@@ -22,9 +22,6 @@ beans.cargo.register()
 from cargos import building_materials
 building_materials.cargo.register()
 
-from cargos import canned_food
-canned_food.cargo.register()
-
 from cargos import cassava
 cassava.cargo.register()
 
@@ -57,9 +54,6 @@ copper_ore.cargo.register()
 
 from cargos import cotton
 cotton.cargo.register()
-
-from cargos import dairy_products
-dairy_products.cargo.register()
 
 from cargos import diamonds
 diamonds.cargo.register()
@@ -135,9 +129,6 @@ maize.cargo.register()
 
 from cargos import manganese
 manganese.cargo.register()
-
-from cargos import meat
-meat.cargo.register()
 
 from cargos import metal
 metal.cargo.register()
