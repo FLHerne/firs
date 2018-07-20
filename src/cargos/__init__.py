@@ -85,6 +85,9 @@ fish.cargo.register()
 from cargos import food
 food.cargo.register()
 
+from cargos import food_additives
+food_additives.cargo.register()
+
 from cargos import flour
 flour.cargo.register()
 
@@ -225,6 +228,9 @@ sugar_beet.cargo.register()
 
 from cargos import textiles
 textiles.cargo.register()
+
+from cargos import tin
+tin.cargo.register()
 
 from cargos import vehicle_parts
 vehicle_parts.cargo.register()
