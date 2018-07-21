@@ -19,7 +19,7 @@ industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios =
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['EOIL', 'FOOD']
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('EOIL', 2), ('TATO', 4), ('ENUM', 2)]
+industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('TATO', 6), ('ENUM', 2)]
 industry.economy_variations['EXTREME'].prod_cargo_types = ['FOOD']
 
 industry.add_tile(id='food_processor_tile_1',

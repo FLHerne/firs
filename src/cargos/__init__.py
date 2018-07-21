@@ -4,6 +4,9 @@ registered_cargos = []
 from cargos import acid
 acid.cargo.register()
 
+from cargos import adhesives
+adhesives.cargo.register()
+
 from cargos import alcohol
 alcohol.cargo.register()
 
@@ -228,9 +231,6 @@ sugar_beet.cargo.register()
 
 from cargos import textiles
 textiles.cargo.register()
-
-from cargos import tinplate
-tinplate.cargo.register()
 
 from cargos import vehicle_parts
 vehicle_parts.cargo.register()

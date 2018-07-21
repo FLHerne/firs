@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(id='plastics_plant',
                              processed_cargos_and_output_ratios=[('ETHL', 3), ('CHLO', 3), ('ACID', 2)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['PLAS'],
+                             prod_cargo_types=['PLAS', 'GLUE'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',

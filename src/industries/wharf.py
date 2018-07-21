@@ -25,7 +25,7 @@ industry.economy_variations['STEELTOWN'].name = 'string(STR_IND_WHARF)'
 
 industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['EXTREME'].accept_cargo_types = []
-industry.economy_variations['EXTREME'].prod_cargo_types = ['JAVA']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['JAVA', 'ENUM']
 
 industry.add_tile(id='wharf_tile_1',
                   land_shape_flags='bitmask(LSF_ONLY_ON_FLAT_LAND)',
