@@ -1,7 +1,8 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='furniture_factory',
-                             processed_cargos_and_output_ratios=[('WDPR', 6)],
+                             processed_cargos_and_output_ratios=[('WDPR', 6), ('GLUE', 2)],
+                             combined_cargos_boost_prod=True,
                              prod_cargo_types=['FURN'],
                              prob_in_game='7',
                              prob_random='8',
@@ -12,6 +13,7 @@ industry = IndustrySecondary(id='furniture_factory',
                              fund_cost_multiplier='95')
 
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
+industry.economy_variations['BASIC_ARCTIC'].processed_cargos_and_output_ratios=[('WDPR', 8)]
 industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types=['GOOD']
 
 industry.economy_variations['EXTREME'].enabled = True
