@@ -1,20 +1,18 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='cannery',
-                             processed_cargos_and_output_ratios=[('BEAN', 6), ('FRUT', 6)],
+                             processed_cargos_and_output_ratios=[('BEAN', 3), ('FRUT', 3), ('ENUM', 2)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['FOOD'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
                              map_colour='181',
-                             name='TTD_STR_INDUSTRY_NAME_FOOD_PROCESSING_PLANT',
+                             name='string(STR_IND_CANNING_PLANT)',
                              nearby_station_name='string(STR_STATION_FOOD_CORPORATION)',
                              fund_cost_multiplier='65')
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].processed_cargos_and_output_ratios = [('STEL', 2), ('FRUT', 4), ('ENUM', 2)]
-industry.economy_variations['EXTREME'].prod_cargo_types = ['FOOD']
 
 industry.add_tile(id='cannery_tile_1',
                   location_checks=TileLocationChecks(require_effectively_flat=True,
