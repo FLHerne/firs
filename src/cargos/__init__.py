@@ -229,8 +229,8 @@ sugar_beet.cargo.register()
 from cargos import textiles
 textiles.cargo.register()
 
-from cargos import tin
-tin.cargo.register()
+from cargos import tinplate
+tinplate.cargo.register()
 
 from cargos import vehicle_parts
 vehicle_parts.cargo.register()

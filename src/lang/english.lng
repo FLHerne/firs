@@ -89,7 +89,7 @@ STR_CARGO_NAME_SUGAR                                                            
 STR_CARGO_NAME_SUGAR_BEET                                                       :Sugar Beet
 STR_CARGO_NAME_SULPHUR                                                          :Sulphur
 STR_CARGO_NAME_TEXTILES                                                         :Textiles
-STR_CARGO_NAME_TIN                                                              :Tin
+STR_CARGO_NAME_TINPLATE                                                         :Tinplate
 STR_CARGO_NAME_VEHICLE_BODIES                                                   :Vehicle Bodies
 STR_CARGO_NAME_VEHICLE_PARTS                                                    :Vehicle Parts
 STR_CARGO_NAME_VEHICLES                                                         :Vehicles
@@ -158,7 +158,7 @@ STR_CARGO_UNIT_SUGAR                                                            
 STR_CARGO_UNIT_SUGAR_BEET                                                       :{WEIGHT} of sugar beet
 STR_CARGO_UNIT_SULPHUR                                                          :{WEIGHT} of sulphur
 STR_CARGO_UNIT_TEXTILES                                                         :{WEIGHT} of textiles
-STR_CARGO_UNIT_TIN                                                              :{WEIGHT} of tin
+STR_CARGO_UNIT_TINPLATE                                                         :{WEIGHT} of tinplate
 STR_CARGO_UNIT_VEHICLE_BODIES                                                   :{WEIGHT} of vehicle bodies
 STR_CARGO_UNIT_VEHICLE_PARTS                                                    :{WEIGHT} of vehicle parts
 STR_CARGO_UNIT_VEHICLES                                                         :{WEIGHT} of vehicles
@@ -226,7 +226,7 @@ STR_CID_SUGAR                                                                   
 STR_CID_SUGAR_BEET                                                              :{TINYFONT}SB
 STR_CID_SULPHUR                                                                 :{TINYFONT}SU
 STR_CID_TEXTILES                                                                :{TINYFONT}TX
-STR_CID_TIN                                                                     :{TINYFONT}TN
+STR_CID_TINPLATE                                                                :{TINYFONT}TP
 STR_CID_VEHICLE_BODIES                                                          :{TINYFONT}VB
 STR_CID_VEHICLE_PARTS                                                           :{TINYFONT}VP
 STR_CID_VEHICLES                                                                :{TINYFONT}VS
@@ -272,7 +272,7 @@ STR_IND_COKE_OVEN                                                               
 STR_IND_COPPER_REFINERY                                                         :Copper Refinery
 STR_IND_DAIRY                                                                   :Dairy
 STR_IND_DAIRY_FARM                                                              :Dairy Farm
-STR_IND_DETERGENT_FACTORY                                                       :Detergent Factory
+STR_IND_DETERGENT_FACTORY                                                       :Specialty Chemicals Factory
 STR_IND_DISTILLERY                                                              :Distillery
 STR_IND_DREDGING_SITE                                                           :Dredging Site
 STR_IND_ELECTRIC_ARC_FURNACE                                                    :Electric Arc Furnace

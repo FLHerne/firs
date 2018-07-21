@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='metal_workshop',
-                             processed_cargos_and_output_ratios=[('STEL', 6), ('TIN_', 2)],
+                             processed_cargos_and_output_ratios=[('STEL', 6), ('RFPR', 8)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['GOOD'],
                              prob_in_game='3',
@@ -20,9 +20,6 @@ industry.economy_variations['BASIC_TEMPERATE'].prod_cargo_types = ['GOOD']
 industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].processed_cargos_and_output_ratios = [('STEL', 4), ('COPR', 4)]
 industry.economy_variations['STEELTOWN'].prod_cargo_types = ['ENSP', 'POWR']
-
-industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].intro_year = 1762
 
 industry.add_tile(id='metal_workshop_tile_1',
                   animation_length=47,

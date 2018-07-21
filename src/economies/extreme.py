@@ -52,6 +52,6 @@ economy = Economy(id = "EXTREME",
                             'sugar',
                             'sugar_beet',
                             'textiles',
-                            'tin',
+                            'tinplate',
                             'wood',
                             'wool'])
