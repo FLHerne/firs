@@ -43,6 +43,9 @@ cement_plant.industry.register()
 from industries import chemical_plant
 chemical_plant.industry.register()
 
+from industries import chlor_alkali_plant
+chlor_alkali_plant.industry.register()
+
 from industries import coal_mine
 coal_mine.industry.register()
 

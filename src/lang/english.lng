@@ -265,6 +265,7 @@ STR_IND_BUTCHERS_SHOP                                                           
 STR_IND_BULK_TERMINAL                                                           :Bulk Terminal
 STR_IND_CEMENT_PLANT                                                            :Cement Plant
 STR_IND_CHEMICAL_PLANT                                                          :Chemical Plant
+STR_IND_CHLOR_ALKALI_PLANT                                                      :Chlor Alkali Plant
 STR_IND_CLAY_PIT                                                                :Clay Pit
 STR_IND_COFFEE_ESTATE                                                           :Coffee Estate
 STR_IND_COKE_OVEN                                                               :Coke Oven
@@ -306,7 +307,7 @@ STR_IND_ORCHARD_PIGGERY                                                         
 STR_IND_PEATLANDS                                                               :Peatlands
 STR_IND_PETROLPUMP                                                              :Petrol Station
 STR_IND_PHOSPHATE_MINE                                                          :Phosphate Mine
-STR_IND_PLASTICS_PLANT                                                          :Plastics Plant
+STR_IND_PLASTICS_PLANT                                                          :Polymer Factory
 STR_IND_PORT                                                                    :Port
 STR_IND_POTASH_MINE                                                             :Potash Mine
 STR_IND_PYRITE_MINE                                                             :Pyrite Mine

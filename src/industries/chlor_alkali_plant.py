@@ -8,15 +8,9 @@ industry = IndustrySecondary(id='chlor_alkali_plant',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
                              map_colour='191',
-                             name='string(STR_IND_CHEMICAL_PLANT)',
+                             name='string(STR_IND_CHLOR_ALKALI_PLANT)',
                              nearby_station_name='string(STR_STATION_HEAVY_INDUSTRY_2)',
                              fund_cost_multiplier='170')
-
-industry.economy_variations['BASIC_TROPIC'].enabled = True
-
-industry.economy_variations['BASIC_ARCTIC'].enabled = True
-industry.economy_variations['BASIC_ARCTIC'].processed_cargos_and_output_ratios = [('SULP', 4), ('PHOS', 4)]
-industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types = ['FERT', 'BOOM']
 
 # tried accepting SULP in Steeltown, but better balance if it just goes to Tyre Plant
 industry.economy_variations['STEELTOWN'].enabled = True
