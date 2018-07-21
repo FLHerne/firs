@@ -12,6 +12,7 @@ industry = IndustryPrimaryExtractive(id='limestone_mine',
                                      nearby_station_name='string(STR_STATION_LIMESTONE_MINES)',
                                      fund_cost_multiplier='232')
 
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['STEELTOWN'].enabled = True
 
 

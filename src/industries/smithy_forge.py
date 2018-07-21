@@ -13,7 +13,8 @@ industry = IndustrySecondary(id='smithy_forge',
                              fund_cost_multiplier='63',
                              expiry_year=1948)
 
-industry.economy_variations['FIRS'].enabled = True
+# currently not used
+# industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='smithy_forge_tile_1',
                   animation_length=47,

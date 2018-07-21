@@ -2,7 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='biorefinery',
                              processed_cargos_and_output_ratios=[('GRAI', 6), ('SGBT', 6)],
-                             prod_cargo_types=['RFPR', 'PETR'],
+                             prod_cargo_types=['PETR'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -13,7 +13,8 @@ industry = IndustrySecondary(id='biorefinery',
                              fund_cost_multiplier='170',
                              intro_year=2001)
 
-industry.economy_variations['FIRS'].enabled = True
+# not used
+#industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='biorefinery_tile_1',
                   animation_length=7,

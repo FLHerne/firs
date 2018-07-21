@@ -1,7 +1,7 @@
 from industry import IndustryTertiary, TileLocationChecks
 
 industry = IndustryTertiary(id='hardware_store',
-                            accept_cargo_types=['GOOD', 'BDMT'],
+                            accept_cargo_types=['GOOD', 'BDMT', 'FURN'],
                             prod_cargo_types=[],
                             prob_in_game='18',
                             prob_random='24',
@@ -15,9 +15,11 @@ industry = IndustryTertiary(id='hardware_store',
                             nearby_station_name='string(STR_STATION_TOWN_1)',
                             fund_cost_multiplier='15')
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prob_random = '14'
+industry.economy_variations['MISTAH_KURTZ'].accept_cargo_types = ['GOOD', 'BDMT']
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='hardware_store_tile_1',
                   location_checks=TileLocationChecks(require_road_adjacent=True))

@@ -1,0 +1,21 @@
+from cargo import Cargo
+
+cargo = Cargo(id='flour',
+              type_name='string(STR_CARGO_NAME_FLOUR)',
+              unit_name='string(STR_CARGO_NAME_FLOUR)',
+              type_abbreviation='string(STR_CID_FLOUR)',
+              sprite='NEW_CARGO_SPRITE',
+              weight='1.0',
+              cargo_payment_list_colour='48',
+              is_freight='1',
+              cargo_classes='bitmask(CC_PIECE_GOODS)',
+              cargo_label='BAKE',
+              town_growth_effect='TOWNGROWTH_FOOD',
+              town_growth_multiplier='1.0',
+              units_of_cargo='94',
+              items_of_cargo='string(STR_CARGO_UNIT_FLOUR)',
+              penalty_lowerbound='0',
+              single_penalty_length='24',
+              price_factor='158',
+              capacity_multiplier='1',
+              icon_indices=(12, 0))

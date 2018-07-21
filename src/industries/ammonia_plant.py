@@ -3,8 +3,8 @@ from industry import IndustrySecondary, TileLocationChecks
 # this industry overlaps with chemical plant somewhat, but blah blah blah
 
 industry = IndustrySecondary(id='ammonia_plant',
-                             processed_cargos_and_output_ratios=[('RFPR', 8)],
-                             prod_cargo_types=['FMSP', 'ENSP'],
+                             processed_cargos_and_output_ratios=[('PETR', 6)],
+                             prod_cargo_types=['AMMO'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -15,7 +15,7 @@ industry = IndustrySecondary(id='ammonia_plant',
                              intro_year=1890,
                              graphics_change_dates=[1952])
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='ammonia_plant_tile_1',
                   animation_length=7,

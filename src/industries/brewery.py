@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='brewery',
-                             processed_cargos_and_output_ratios=[('MNSP', 2), ('FRUT', 3), ('GRAI', 3)],
+                             processed_cargos_and_output_ratios=[('MNSP', 2), ('GRAI', 3)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['BEER'],
                              prob_in_game='3',
@@ -13,12 +13,14 @@ industry = IndustrySecondary(id='brewery',
                              nearby_station_name='string(STR_STATION_BARREL_AND_KEG)',
                              fund_cost_multiplier='50')
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].name = 'string(STR_IND_CIDER_MILL)'
 industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('FRUT', 6)]
+
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('FRUT', 4), ('MAIZ', 4)]
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='brewery_tile_1',
                   animation_length=6,

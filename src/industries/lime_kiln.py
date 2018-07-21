@@ -1,9 +1,9 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='lime_kiln',
-                             processed_cargos_and_output_ratios=[('GRVL', 4), ('COAL', 4)],
+                             processed_cargos_and_output_ratios=[('LIME', 4), ('PETR', 4)],
                              combined_cargos_boost_prod=True,
-                             prod_cargo_types=['RFPR', 'FMSP'],
+                             prod_cargo_types=['QLME'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -13,10 +13,7 @@ industry = IndustrySecondary(id='lime_kiln',
                              fund_cost_multiplier='45',
                              graphics_change_dates=[1952, 1978])
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['STEELTOWN'].enabled = True
-industry.economy_variations['STEELTOWN'].prod_cargo_types = ['QLME']
-industry.economy_variations['STEELTOWN'].processed_cargos_and_output_ratios = [('LIME', 4), ('PETR', 4)]
 
 industry.add_tile(id='lime_kiln_tile_1',
                   animation_length=7,

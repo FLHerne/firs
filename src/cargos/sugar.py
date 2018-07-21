@@ -1,0 +1,21 @@
+from cargo import Cargo
+
+cargo = Cargo(id='sugar',
+              type_name='string(STR_CARGO_NAME_SUGAR)',
+              unit_name='string(STR_CARGO_NAME_SUGAR)',
+              type_abbreviation='string(STR_CID_SUGAR)',
+              sprite='NEW_CARGO_SPRITE',
+              weight='1.0',
+              cargo_payment_list_colour='30',
+              is_freight='1',
+              cargo_classes='bitmask(CC_BULK)',
+              cargo_label='SUGR',
+              town_growth_effect='TOWNGROWTH_NONE',
+              town_growth_multiplier='1.0',
+              units_of_cargo='80',
+              items_of_cargo='string(STR_CARGO_UNIT_SUGAR)',
+              penalty_lowerbound='5',
+              single_penalty_length='30',
+              price_factor='99',
+              capacity_multiplier='1',
+              icon_indices=(14, 1))

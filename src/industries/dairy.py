@@ -1,8 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='dairy',
-                             processed_cargos_and_output_ratios=[('MNSP', 3), ('MILK', 5)],
-                             combined_cargos_boost_prod=True,
+                             processed_cargos_and_output_ratios=[('MILK', 8)],
                              prod_cargo_types=['FOOD'],
                              prob_in_game='3',
                              prob_random='5',
@@ -13,9 +12,9 @@ industry = IndustrySecondary(id='dairy',
                              nearby_station_name='string(STR_STATION_DAIRY_LANE)',
                              fund_cost_multiplier='45')
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
-industry.economy_variations['BASIC_TEMPERATE'].processed_cargos_and_output_ratios = [('MILK', 6)]
+
+industry.economy_variations['EXTREME'].enabled = True
 
 # tile with animation for flag
 industry.add_tile(id='dairy_tile_1',

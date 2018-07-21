@@ -26,7 +26,7 @@ STR_PARAM_DESC_PRIMARY_LEVEL_BONUS                                              
 STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE                                       :Zwykła ekonomia dla klimatu umiarkowanego
 STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          :Zwykła ekonomia dla klimatu arktycznego
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Zwykła ekonomia dla klimatu tropikalnego
-STR_PARAM_VALUE_ECONOMIES_FIRS                                                  :Ekstremalna
+STR_PARAM_VALUE_ECONOMIES_EXTREME                                                                                                 :Ekstremalna
 STR_PARAM_VALUE_ECONOMIES_MISTAH_KURTZ                                          :W Gorącym Kraju
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Stalowa metropolia
 
@@ -516,11 +516,6 @@ STR_IND_FISHING_GROUND                                                          
 STR_IND_FISHING_GROUND.d                                                        :łowiska
 STR_IND_FISHING_HARBOUR                                                         :{G=m}Port rybacki
 STR_IND_FISHING_HARBOUR.d                                                       :portu rybackiego
-STR_IND_FISHING_VILLAGE                                                         :{G=f}Wioska rybacka
-STR_IND_FISHING_VILLAGE.b                                                       :wioskę rybacką
-STR_IND_FISHING_VILLAGE.c                                                       :wiosce rybackiej
-STR_IND_FISHING_VILLAGE.d                                                       :wioski rybackiej
-STR_IND_FISHING_VILLAGE.n                                                       :wioską rybacką
 STR_IND_FLOUR_MILL                                                              :{G=m}Młyn
 STR_IND_FLOUR_MILL.b                                                            :młyn
 STR_IND_FLOUR_MILL.c                                                            :młynowi
