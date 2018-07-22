@@ -127,6 +127,9 @@ limestone.cargo.register()
 from cargos import lye
 lye.cargo.register()
 
+from cargos import machine_parts
+machine_parts.cargo.register()
+
 from cargos import mail
 mail.cargo.register()
 

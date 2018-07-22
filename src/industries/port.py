@@ -42,7 +42,7 @@ industry.economy_variations['STEELTOWN'].prod_multiplier = '[16, 16]'
 
 industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['EXTREME'].accept_cargo_types = ['TEXT']
-industry.economy_variations['EXTREME'].prod_cargo_types = ['COTT', 'POWR']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['COTT', 'MPTS']
 industry.economy_variations['EXTREME'].prod_multiplier = '[9, 7]'
 
 industry.add_tile(id='port_tile_1',

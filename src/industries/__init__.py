@@ -175,9 +175,6 @@ petrol_pump.industry.register()
 from industries import plastics_plant
 plastics_plant.industry.register()
 
-from industries import potash_mine
-potash_mine.industry.register()
-
 from industries import power_plant
 power_plant.industry.register()
 
@@ -192,6 +189,9 @@ recycling_plant.industry.register()
 
 from industries import rubber_plantation
 rubber_plantation.industry.register()
+
+from industries import salt_mine
+salt_mine.industry.register()
 
 from industries import sheep_farm
 sheep_farm.industry.register()
@@ -210,6 +210,9 @@ stockyard.industry.register()
 
 from industries import sugar_refinery
 sugar_refinery.industry.register()
+
+from industries import sulphur_mine
+sulphur_mine.industry.register()
 
 from industries import textile_mill
 textile_mill.industry.register()

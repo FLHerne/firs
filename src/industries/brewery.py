@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='brewery',
-                             processed_cargos_and_output_ratios=[('MNSP', 2), ('GRAI', 3)],
+                             processed_cargos_and_output_ratios=[('ENUM', 2), ('GRAI', 3)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['BEER'],
                              prob_in_game='3',

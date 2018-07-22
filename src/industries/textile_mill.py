@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='textile_mill',
-                             processed_cargos_and_output_ratios=[('WOOL', 6), ('COTT', 6)],
+                             processed_cargos_and_output_ratios=[('PLAS', 6), ('COTT', 6)],
                              prod_cargo_types=['TEXT'],
                              prob_in_game='3',
                              prob_random='5',
