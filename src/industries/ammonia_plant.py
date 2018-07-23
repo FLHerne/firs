@@ -3,7 +3,7 @@ from industry import IndustrySecondary, TileLocationChecks
 # this industry overlaps with chemical plant somewhat, but blah blah blah
 
 industry = IndustrySecondary(id='ammonia_plant',
-                             processed_cargos_and_output_ratios=[('PETR', 6)],
+                             processed_cargos_and_output_ratios=[('ETHL', 6)],
                              prod_cargo_types=['AMMO'],
                              prob_in_game='3',
                              prob_random='5',

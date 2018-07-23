@@ -58,6 +58,9 @@ copper_ore.cargo.register()
 from cargos import cotton
 cotton.cargo.register()
 
+from cargos import detergents
+detergents.cargo.register()
+
 from cargos import diamonds
 diamonds.cargo.register()
 

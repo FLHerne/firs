@@ -2,7 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='detergent_factory',
                              processed_cargos_and_output_ratios=[('LYE_', 8), ('SASH', 8), ('AMMO', 8)],
-                             prod_cargo_types=['GOOD', 'ENUM'],
+                             prod_cargo_types=['SOAP', 'ENUM'],
                              prob_in_game='7',
                              prob_random='8',
                              prod_multiplier='[0, 0]',

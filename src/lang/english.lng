@@ -29,7 +29,7 @@ STR_PARAM_VALUE_ECONOMIES_MISTAH_KURTZ                                          
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Steeltown
 
 STR_CARGO_NAME_ACID                                                             :Acid
-STR_CARGO_NAME_ADHESIVES                                                        :Adhesives
+STR_CARGO_NAME_ADHESIVES                                                        :Industrial Finishes
 STR_CARGO_NAME_ALCOHOL                                                          :Alcohol
 STR_CARGO_NAME_ALUMINIUM                                                        :Aluminium
 STR_CARGO_NAME_AMMONIA                                                          :Ammonia
@@ -45,10 +45,11 @@ STR_CARGO_NAME_COFFEE                                                           
 STR_CARGO_NAME_COKE                                                             :Coke
 STR_CARGO_NAME_COPPER                                                           :Copper
 STR_CARGO_NAME_COTTON                                                           :Cotton
+STR_CARGO_NAME_DETERGENTS                                                       :Household Chemicals
 STR_CARGO_NAME_EDIBLE_OIL                                                       :Edible Oil
 STR_CARGO_NAME_ELECTRICAL_MACHINES                                              :Electrical Machines
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :Engineering Supplies
-STR_CARGO_NAME_ETHYLENE                                                         :Petrochemical Intermediate Feedstocks
+STR_CARGO_NAME_ETHYLENE                                                         :Petrochemicals
 STR_CARGO_NAME_EXPLOSIVES                                                       :Explosives
 STR_CARGO_NAME_FARM_SUPPLIES                                                    :Farm Supplies
 STR_CARGO_NAME_FERTILISER                                                       :Fertiliser
@@ -74,7 +75,7 @@ STR_CARGO_NAME_PETROL                                                           
 STR_CARGO_NAME_PHOSPHATE                                                        :Phosphate
 STR_CARGO_NAME_PIG_IRON                                                         :Pig Iron
 STR_CARGO_NAME_PIPE                                                             :Pipe
-STR_CARGO_NAME_PLASTIC                                                          :Plastic
+STR_CARGO_NAME_PLASTIC                                                          :Polymers
 STR_CARGO_NAME_POTASH                                                           :Potash
 STR_CARGO_NAME_POTATOS                                                          :Potatos
 STR_CARGO_NAME_PYRITE_ORE                                                       :Pyrite Ore
@@ -114,6 +115,7 @@ STR_CARGO_UNIT_COFFEE                                                           
 STR_CARGO_UNIT_COKE                                                             :{WEIGHT} of coke
 STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} of copper
 STR_CARGO_UNIT_COTTON                                                           :{WEIGHT} of cotton
+STR_CARGO_UNIT_DETERGENTS                                                       :{VOLUME} of detergents
 STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} of edible oil
 STR_CARGO_UNIT_ELECTRICAL_MACHINES                                              :{WEIGHT} of electrical machines
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} crate{P 0 "" s} of engineering supplies
@@ -184,6 +186,7 @@ STR_CID_COFFEE                                                                  
 STR_CID_COKE                                                                    :{TINYFONT}CK
 STR_CID_COPPER                                                                  :{TINYFONT}CR
 STR_CID_COTTON                                                                  :{TINYFONT}CT
+STR_CID_DETERGENTS                                                              :{TINYFONT}DE
 STR_CID_EDIBLE_OIL                                                              :{TINYFONT}EO
 STR_CID_ELECTRICAL_MACHINES                                                     :{TINYFONT}EM
 STR_CID_ENGINEERING_SUPPLIES                                                    :{TINYFONT}ES
@@ -251,6 +254,7 @@ STR_ERR_LOCATION_NOT_IN_DESERT                                                  
 STR_ERR_LOCATION_NOT_ON_STEEP_SLOPE                                             :cannot be placed on steep slopes.
 STR_ERR_LOCATION_LIMIT_1_PER_TOWN                                               :only one industry of this type allowed per town.
 
+STR_IND_ACID_PLANT                                                              :Acid Plant
 STR_IND_ALUMINIUM_PLANT                                                         :Aluminium Plant
 STR_IND_AMMONIA_PLANT                                                           :Ammonia Plant
 STR_IND_ARABLE_FARM                                                             :Arable Farm

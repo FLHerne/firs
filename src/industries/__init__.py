@@ -1,6 +1,9 @@
 registered_industries = []
 
 # keep these alphabetised for ease of maintaining
+from industries import acid_plant
+acid_plant.industry.register()
+
 from industries import aluminium_plant
 aluminium_plant.industry.register()
 
