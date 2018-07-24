@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='factory',
-                             processed_cargos_and_output_ratios=[('LYE_', 8), ('SASH', 8), ('AMMO', 8)],
+                             processed_cargos_and_output_ratios=[('PLAS', 8), ('MPTS', 8)],
                              prod_cargo_types=['GOOD'],
                              prob_in_game='7',
                              prob_random='8',
@@ -11,7 +11,7 @@ industry = IndustrySecondary(id='factory',
                              nearby_station_name='string(STR_STATION_INDUSTRY_ESTATE_1)',
                              fund_cost_multiplier='95')
 
-# industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='factory_tile_1',
                   animation_length=71,

@@ -317,7 +317,7 @@ STR_IND_PETROLPUMP                                                              
 STR_IND_PHOSPHATE_MINE                                                          :Phosphate Mine
 STR_IND_PLASTICS_PLANT                                                          :Polymer Factory
 STR_IND_PORT                                                                    :Port
-STR_IND_SALT_MINE                                                               :Salt Mine
+STR_IND_SALT_MINE                                                               :Brine Wells
 STR_IND_PYRITE_MINE                                                             :Pyrite Mine
 STR_IND_PYRITE_SMELTER                                                          :Pyrite Smelter
 STR_IND_POWER_PLANT                                                             :Power Plant

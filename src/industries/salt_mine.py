@@ -1,10 +1,10 @@
 from industry import IndustryPrimaryExtractive, TileLocationChecks
 
 industry = IndustryPrimaryExtractive(id='salt_mine',
-                                     prod_cargo_types=['POTA', 'SALT'],
+                                     prod_cargo_types=['ENUM', 'SALT'],
                                      prob_in_game='4',
                                      prob_random='7',
-                                     prod_multiplier='[20, 20]',
+                                     prod_multiplier='[4, 20]',
                                      map_colour='16',
                                      location_checks=dict(cluster=[70, 3]),
                                      prospect_chance='0.75',

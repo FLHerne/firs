@@ -18,6 +18,7 @@ industry.economy_variations['BASIC_ARCTIC'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].processed_cargos_and_output_ratios = [('KAOL', 2), ('WOOD', 4), ('SULP', 2)]
 
 industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].prod_cargo_types = ['GOOD']
 
 
 # industry uses layouts and sprites from default game, no custom layouts etc
