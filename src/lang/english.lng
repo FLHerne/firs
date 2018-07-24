@@ -318,9 +318,10 @@ STR_IND_PHOSPHATE_MINE                                                          
 STR_IND_PLASTICS_PLANT                                                          :Polymer Factory
 STR_IND_PORT                                                                    :Port
 STR_IND_SALT_MINE                                                               :Brine Wells
+STR_IND_POWER_PLANT                                                             :Power Plant
+STR_IND_PRINTING_WORKS                                                          :Printing Works
 STR_IND_PYRITE_MINE                                                             :Pyrite Mine
 STR_IND_PYRITE_SMELTER                                                          :Pyrite Smelter
-STR_IND_POWER_PLANT                                                             :Power Plant
 STR_IND_QUARRY                                                                  :Quarry
 STR_IND_RANCH                                                                   :Ranch
 STR_IND_RECYCLING_DEPOT                                                         :Recycling Depot

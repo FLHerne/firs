@@ -262,6 +262,9 @@ from industries import potash_mine
 potash_mine.industry.register()
 """
 
+from industries import printing_works
+printing_works.industry.register()
+
 from industries import pyrite_mine
 pyrite_mine.industry.register()
 

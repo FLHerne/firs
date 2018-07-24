@@ -24,7 +24,7 @@ industry.economy_variations['STEELTOWN'].prod_multiplier = '[16, 12]'
 industry.economy_variations['STEELTOWN'].name = 'string(STR_IND_WHARF)'
 
 industry.economy_variations['EXTREME'].enabled = True
-industry.economy_variations['EXTREME'].accept_cargo_types = []
+industry.economy_variations['EXTREME'].accept_cargo_types = ['PAPR']
 industry.economy_variations['EXTREME'].prod_cargo_types = ['JAVA', 'ENUM']
 
 industry.add_tile(id='wharf_tile_1',
