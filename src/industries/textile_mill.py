@@ -11,6 +11,7 @@ industry = IndustrySecondary(id='textile_mill',
                              nearby_station_name='string(STR_STATION_WEAVE_AND_DYE)',
                              fund_cost_multiplier='120')
 
+# tried adding cleaning products in Extreme, and combinatorial processing, but makes janky cargoflow
 industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='textile_mill_tile_1',
