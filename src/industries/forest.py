@@ -16,7 +16,7 @@ industry = IndustryPrimaryOrganic(id='forest',
                                   graphics_change_dates=[1935, 1990],
                                   override_default_construction_states=True)
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types = ['WOOD']
 industry.economy_variations['BASIC_ARCTIC'].prod_multiplier = '[24]'

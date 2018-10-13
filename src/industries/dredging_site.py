@@ -14,7 +14,7 @@ industry = IndustryPrimaryExtractive(id='dredging_site',
                                      fund_cost_multiplier='180',
                                      graphics_change_dates=[1906, 1945])
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 
 industry.add_tile(id='dredging_site_tile_1',

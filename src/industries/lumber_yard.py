@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='lumber_yard',
-                             processed_cargos_and_output_ratios=[('WDPR', 6), ('RFPR', 2)],
+                             processed_cargos_and_output_ratios=[('WDPR', 6), ('GLUE', 2)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['ENSP', 'BDMT'],
                              prob_in_game='3',
@@ -12,7 +12,7 @@ industry = IndustrySecondary(id='lumber_yard',
                              nearby_station_name='string(STR_STATION_CREOSOTING)',
                              fund_cost_multiplier='35')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['BDMT']
 

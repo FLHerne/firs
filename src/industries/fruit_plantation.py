@@ -14,7 +14,7 @@ industry = IndustryPrimaryOrganic(id='fruit_plantation',
                                   prod_multiplier='[16]',
                                   override_default_construction_states=True)
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 
 industry.add_tile(id='fruit_plantation_tile_1',

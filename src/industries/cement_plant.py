@@ -1,7 +1,7 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='cement_plant',
-                             processed_cargos_and_output_ratios=[('COAL', 2), ('CLAY', 2), ('GRVL', 4)],
+                             processed_cargos_and_output_ratios=[('COAL', 2), ('CLAY', 2), ('LIME', 4)],
                              combined_cargos_boost_prod=True,
                              prod_cargo_types=['BDMT'],
                              prob_in_game='3',
@@ -13,9 +13,10 @@ industry = IndustrySecondary(id='cement_plant',
                              nearby_station_name='string(STR_STATION_SILO)',
                              fund_cost_multiplier='203')
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('PETR', 2), ('CLAY', 2), ('GRVL', 4)]
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='cement_plant_tile_1',
                   animation_length=7,

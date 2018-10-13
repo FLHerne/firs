@@ -4,8 +4,17 @@ registered_cargos = []
 from cargos import acid
 acid.cargo.register()
 
+from cargos import adhesives
+adhesives.cargo.register()
+
 from cargos import alcohol
 alcohol.cargo.register()
+
+from cargos import aluminium
+aluminium.cargo.register()
+
+from cargos import ammonia
+ammonia.cargo.register()
 
 from cargos import bauxite
 bauxite.cargo.register()
@@ -46,6 +55,12 @@ copper.cargo.register()
 from cargos import copper_ore
 copper_ore.cargo.register()
 
+from cargos import cotton
+cotton.cargo.register()
+
+from cargos import detergents
+detergents.cargo.register()
+
 from cargos import diamonds
 diamonds.cargo.register()
 
@@ -57,6 +72,9 @@ electrical_machines.cargo.register()
 
 from cargos import engineering_supplies
 engineering_supplies.cargo.register()
+
+from cargos import ethylene
+ethylene.cargo.register()
 
 from cargos import explosives
 explosives.cargo.register()
@@ -73,8 +91,17 @@ fish.cargo.register()
 from cargos import food
 food.cargo.register()
 
+from cargos import food_additives
+food_additives.cargo.register()
+
+from cargos import flour
+flour.cargo.register()
+
 from cargos import fruits
 fruits.cargo.register()
+
+from cargos import furniture
+furniture.cargo.register()
 
 from cargos import vehicle_bodies
 vehicle_bodies.cargo.register()
@@ -100,6 +127,12 @@ kaolin.cargo.register()
 from cargos import limestone
 limestone.cargo.register()
 
+from cargos import lye
+lye.cargo.register()
+
+from cargos import machine_parts
+machine_parts.cargo.register()
+
 from cargos import mail
 mail.cargo.register()
 
@@ -108,9 +141,6 @@ maize.cargo.register()
 
 from cargos import manganese
 manganese.cargo.register()
-
-from cargos import packaging
-packaging.cargo.register()
 
 from cargos import metal
 metal.cargo.register()
@@ -126,6 +156,9 @@ nuts.cargo.register()
 
 from cargos import oil
 oil.cargo.register()
+
+from cargos import packaging
+packaging.cargo.register()
 
 from cargos import paper
 paper.cargo.register()
@@ -150,6 +183,15 @@ pipe.cargo.register()
 
 from cargos import plant_fibres
 plant_fibres.cargo.register()
+
+from cargos import plastic
+plastic.cargo.register()
+
+from cargos import potash
+potash.cargo.register()
+
+from cargos import potatos
+potatos.cargo.register()
 
 from cargos import pyrite_ore
 pyrite_ore.cargo.register()
@@ -187,8 +229,14 @@ stone.cargo.register()
 from cargos import sulphur
 sulphur.cargo.register()
 
+from cargos import sugar
+sugar.cargo.register()
+
 from cargos import sugar_beet
 sugar_beet.cargo.register()
+
+from cargos import textiles
+textiles.cargo.register()
 
 from cargos import vehicle_parts
 vehicle_parts.cargo.register()

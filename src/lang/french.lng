@@ -25,7 +25,7 @@ STR_PARAM_DESC_PRIMARY_LEVEL_BONUS                                              
 STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE                                       :Basique - Environnement tempéré
 STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          :Basique - Environnement arctique
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Basique - Environnement tropical
-STR_PARAM_VALUE_ECONOMIES_FIRS                                                  :Extrême
+STR_PARAM_VALUE_ECONOMIES_EXTREME                                                                                                 :Extrême
 STR_PARAM_VALUE_ECONOMIES_MISTAH_KURTZ                                          :Dans un pays chaud
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Cité de l'acier
 
@@ -238,7 +238,6 @@ STR_IND_ELECTRIC_ARC_FURNACE                                                    
 STR_IND_FACTORY                                                                 :Fabrique
 STR_IND_FISHING_GROUND                                                          :Zone de pêche
 STR_IND_FISHING_HARBOUR                                                         :Port de pêche
-STR_IND_FISHING_VILLAGE                                                         :Village de pêcheurs
 STR_IND_FLOUR_MILL                                                              :Moulin à farine
 STR_IND_FOOD_MARKET                                                             :Magasin d'alimentation
 STR_IND_FOOD_PROCESSOR                                                          :Usine agroalimentaire

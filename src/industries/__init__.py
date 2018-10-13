@@ -1,6 +1,9 @@
 registered_industries = []
 
 # keep these alphabetised for ease of maintaining
+from industries import acid_plant
+acid_plant.industry.register()
+
 from industries import aluminium_plant
 aluminium_plant.industry.register()
 
@@ -9,6 +12,12 @@ ammonia_plant.industry.register()
 
 from industries import arable_farm
 arable_farm.industry.register()
+
+from industries import assembly_plant
+assembly_plant.industry.register()
+
+from industries import bakery
+bakery.industry.register()
 
 from industries import basic_oxygen_furnace
 basic_oxygen_furnace.industry.register()
@@ -31,11 +40,20 @@ builders_yard.industry.register()
 from industries import bulk_terminal
 bulk_terminal.industry.register()
 
+from industries import cannery
+cannery.industry.register()
+
 from industries import cement_plant
 cement_plant.industry.register()
 
 from industries import chemical_plant
 chemical_plant.industry.register()
+
+from industries import chlor_alkali_plant
+chlor_alkali_plant.industry.register()
+
+from industries import coal_mine
+coal_mine.industry.register()
 
 from industries import coffee_estate
 coffee_estate.industry.register()
@@ -55,14 +73,26 @@ dairy.industry.register()
 from industries import dairy_farm
 dairy_farm.industry.register()
 
+from industries import detergent_factory
+detergent_factory.industry.register()
+
 from industries import diamond_mine
 diamond_mine.industry.register()
+
+from industries import distillery
+distillery.industry.register()
 
 from industries import dredging_site
 dredging_site.industry.register()
 
 from industries import electric_arc_furnace
 electric_arc_furnace.industry.register()
+
+from industries import factory
+factory.industry.register()
+
+from industries import fertiliser_factory
+fertiliser_factory.industry.register()
 
 from industries import flour_mill
 flour_mill.industry.register()
@@ -93,6 +123,9 @@ hotel.industry.register()
 
 from industries import herding_coop
 herding_coop.industry.register()
+
+from industries import iron_ore_mine
+iron_ore_mine.industry.register()
 
 from industries import iron_works
 iron_works.industry.register()
@@ -160,6 +193,9 @@ recycling_plant.industry.register()
 from industries import rubber_plantation
 rubber_plantation.industry.register()
 
+from industries import salt_mine
+salt_mine.industry.register()
+
 from industries import sheep_farm
 sheep_farm.industry.register()
 
@@ -177,6 +213,9 @@ stockyard.industry.register()
 
 from industries import sugar_refinery
 sugar_refinery.industry.register()
+
+from industries import sulphur_mine
+sulphur_mine.industry.register()
 
 from industries import textile_mill
 textile_mill.industry.register()
@@ -205,12 +244,6 @@ port.industry.register()
 from industries import quarry
 quarry.industry.register()
 
-from industries import coal_mine
-coal_mine.industry.register()
-
-from industries import iron_ore_mine
-iron_ore_mine.industry.register()
-
 from industries import oil_refinery
 oil_refinery.industry.register()
 
@@ -229,6 +262,9 @@ from industries import potash_mine
 potash_mine.industry.register()
 """
 
+from industries import printing_works
+printing_works.industry.register()
+
 from industries import pyrite_mine
 pyrite_mine.industry.register()
 
@@ -238,14 +274,14 @@ pyrite_smelter.industry.register()
 from industries import sawmill
 sawmill.industry.register()
 
+from industries import solvay_plant
+solvay_plant.industry.register()
+
 from industries import supply_yard
 supply_yard.industry.register()
 
 from industries import tyre_plant
 tyre_plant.industry.register()
-
-from industries import assembly_plant
-assembly_plant.industry.register()
 
 from industries import vehicle_dealer
 vehicle_dealer.industry.register()

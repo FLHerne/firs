@@ -13,7 +13,7 @@ industry = IndustryPrimaryExtractive(id='clay_pit',
                                      nearby_station_name='string(STR_STATION_PIT)',
                                      fund_cost_multiplier='200')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 
 # 2 tiles for this industry: pit outer tile cannot be on slopes; pit inner tiles and processor tiles can be

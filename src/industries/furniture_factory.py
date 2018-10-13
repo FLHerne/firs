@@ -1,8 +1,9 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='furniture_factory',
-                             processed_cargos_and_output_ratios=[('WDPR', 6)],
-                             prod_cargo_types=['GOOD'],
+                             processed_cargos_and_output_ratios=[('WDPR', 6), ('GLUE', 2)],
+                             combined_cargos_boost_prod=True,
+                             prod_cargo_types=['FURN'],
                              prob_in_game='7',
                              prob_random='8',
                              prod_multiplier='[0, 0]',
@@ -11,8 +12,11 @@ industry = IndustrySecondary(id='furniture_factory',
                              nearby_station_name='string(STR_STATION_JOINERS_SHOP)',
                              fund_cost_multiplier='95')
 
-industry.economy_variations['FIRS'].enabled = True
 industry.economy_variations['BASIC_ARCTIC'].enabled = True
+industry.economy_variations['BASIC_ARCTIC'].processed_cargos_and_output_ratios=[('WDPR', 8)]
+industry.economy_variations['BASIC_ARCTIC'].prod_cargo_types=['GOOD']
+
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='furniture_factory_tile_1',
                   location_checks=TileLocationChecks(require_effectively_flat=True,

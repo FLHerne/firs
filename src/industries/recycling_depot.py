@@ -13,10 +13,9 @@ industry = IndustryPrimaryTownProducer(id='recycling_depot',
                                                             prevent_player_founding=True),
                                        name='string(STR_IND_RECYCLING_DEPOT)',
                                        nearby_station_name='string(STR_STATION_TOWN_2)',
-                                       fund_cost_multiplier='118',
-                                       intro_year=1978)
+                                       fund_cost_multiplier='118')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='recycling_depot_tile_1',
                   location_checks=TileLocationChecks(always_allow_founder=False,

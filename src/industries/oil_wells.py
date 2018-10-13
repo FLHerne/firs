@@ -12,7 +12,7 @@ industry = IndustryPrimaryExtractive(id='oil_wells',
                                      nearby_station_name='string(STR_STATION_WELLS)',
                                      intro_year=1830)
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 industry.economy_variations['BASIC_TROPIC'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 

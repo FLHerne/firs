@@ -2,6 +2,7 @@ from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='food_processor',
                              processed_cargos_and_output_ratios=[('BEAN', 6), ('FRUT', 6)],
+                             combined_cargos_boost_prod=True,
                              prod_cargo_types=['FOOD'],
                              prob_in_game='3',
                              prob_random='5',
@@ -12,6 +13,7 @@ industry = IndustrySecondary(id='food_processor',
                              fund_cost_multiplier='65')
 
 industry.economy_variations['BASIC_TROPIC'].enabled = True
+
 industry.economy_variations['MISTAH_KURTZ'].enabled = True
 industry.economy_variations['MISTAH_KURTZ'].processed_cargos_and_output_ratios = [('NUTS', 6), ('FRUT', 6)]
 industry.economy_variations['MISTAH_KURTZ'].prod_cargo_types = ['EOIL', 'FOOD']

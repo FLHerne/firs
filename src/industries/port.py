@@ -15,11 +15,6 @@ industry = IndustryPrimaryPort(id='port',
                                fund_cost_multiplier='152',
                                override_default_construction_states=True)
 
-industry.economy_variations['FIRS'].enabled = True
-industry.economy_variations['FIRS'].accept_cargo_types = ['GOOD', 'FRUT', 'MNSP']
-industry.economy_variations['FIRS'].prod_cargo_types = ['ENSP', 'FMSP']
-industry.economy_variations['FIRS'].prod_multiplier = '[9, 7]'
-
 industry.economy_variations['BASIC_TEMPERATE'].enabled = True
 industry.economy_variations['BASIC_TEMPERATE'].accept_cargo_types = ['BEER', 'GOOD']
 industry.economy_variations['BASIC_TEMPERATE'].prod_cargo_types = ['ENSP']
@@ -44,6 +39,11 @@ industry.economy_variations['STEELTOWN'].enabled = True
 industry.economy_variations['STEELTOWN'].accept_cargo_types = ['FOOD', 'PIPE']
 industry.economy_variations['STEELTOWN'].prod_cargo_types = ['ZINC', 'RUBR']
 industry.economy_variations['STEELTOWN'].prod_multiplier = '[16, 16]'
+
+industry.economy_variations['EXTREME'].enabled = True
+industry.economy_variations['EXTREME'].accept_cargo_types = ['FOOD', 'BDMT']
+industry.economy_variations['EXTREME'].prod_cargo_types = ['ENUM', 'GLUE']
+industry.economy_variations['EXTREME'].prod_multiplier = '[9, 7]'
 
 industry.add_tile(id='port_tile_1',
                   land_shape_flags='bitmask(LSF_ONLY_ON_FLAT_LAND)',

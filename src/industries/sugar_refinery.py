@@ -1,9 +1,8 @@
 from industry import IndustrySecondary, TileLocationChecks
 
 industry = IndustrySecondary(id='sugar_refinery',
-                             processed_cargos_and_output_ratios=[('MNSP', 3), ('SGBT', 5)],
-                             combined_cargos_boost_prod=True,
-                             prod_cargo_types=['FOOD'],
+                             processed_cargos_and_output_ratios=[('SGBT', 5)],
+                             prod_cargo_types=['SUGR'],
                              prob_in_game='3',
                              prob_random='5',
                              prod_multiplier='[0, 0]',
@@ -13,7 +12,7 @@ industry = IndustrySecondary(id='sugar_refinery',
                              nearby_station_name='string(STR_STATION_SUGAR_COMPANY)',
                              fund_cost_multiplier='140')
 
-industry.economy_variations['FIRS'].enabled = True
+industry.economy_variations['EXTREME'].enabled = True
 
 industry.add_tile(id='sugar_refinery_tile_1',
                   animation_length=7,
