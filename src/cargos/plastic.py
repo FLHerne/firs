@@ -12,7 +12,7 @@ cargo = Cargo(id='plastic',
               cargo_label='PLAS',  # MNSP label preserved in FIRS v3 for backwards compatibility, may remove in v4
               town_growth_effect='TOWNGROWTH_NONE',
               town_growth_multiplier='1.0',
-              units_of_cargo='84',
+              units_of_cargo='TTD_STR_TONS',
               items_of_cargo='string(STR_CARGO_UNIT_PLASTIC)',
               penalty_lowerbound='16',
               single_penalty_length='120',
